@@ -12,6 +12,9 @@ sections:
     content:
       # The user's folder name in `content/authors/`
       username: admin
+    design:
+      banner:
+        filename: 'banner.jpg'
   # - block: hero
   #   content:
   #     title: Write Docs Fast, Focus on Your Content
