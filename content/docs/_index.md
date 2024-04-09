@@ -1,6 +1,6 @@
 ---
 linkTitle: Docs
-title: Docs
+title: Introduction
 ---
 
 ## Overview
