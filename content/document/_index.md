@@ -1,6 +1,5 @@
 ---
-linkTitle: Docs
-title: Introduction
+title: ""
 ---
 
 ## Overview

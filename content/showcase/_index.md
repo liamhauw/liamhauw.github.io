@@ -3,8 +3,6 @@ title: Showcase
 description: ""
 type: landing
 
-
-
 sections:
   - block: collection
     content:
