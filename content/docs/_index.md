@@ -1,16 +1,42 @@
 ---
-linkTitle: Documentation
-title: Introduction
+linkTitle: Docs
+title: Docs
 ---
 
-👋 Welcome to the demo of the Hugo Blox Documentation template!
+## Overview
+Computer science is the study of computation, information, and automation.
 
-<!--more-->
+## Fields
 
-This site is a demo of the Hugo Blox Documentation theme. For the full documentation on how to use this template, refer to the [Hugo Blox Documentation](https://docs.hugoblox.com/).
+- Theoretical computer science
+  - Theory of computation
+  - Information and coding theory
+  - Data structures and algorithms
+  - Programming language theory and formal methods
+- Applied computer science
+  - Computer graphics and visualization
+    - Basics
+      - Geometry 
+      - Rendering
+      - Animation
+        - Character animation
+        - Physical simulation
+    - GPU
+      - Architecture
+      - Vulkan
+    - Application
+      - Unreal Engine
+  - Image and sound processing
+  - Computational science, finance and engineering
+  - Social computing and human–computer interaction
+  - Software engineering
+  - Artificial intelligence
+- Computer systems
+  - Computer architecture and organization
+  - Concurrent, parallel and distributed computing
+  - Computer networks
+  - Computer security and cryptography
+  - Databases and data mining
 
-## Next
-
-{{< cards >}}
-  {{< card url="getting-started" title="Get Started" icon="document-text" subtitle="Create your docs in just 5 minutes!" >}}
-{{< /cards >}}
+## Study
+[csdiy](https://csdiy.wiki/en/)
