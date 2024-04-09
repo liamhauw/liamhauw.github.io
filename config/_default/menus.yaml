@@ -5,8 +5,8 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Document
-    url: document/
+  - name: Docs
+    url: docs/
     weight: 20
   - name: Showcase
     url: showcase/

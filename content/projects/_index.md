@@ -1,5 +1,5 @@
 ---
-title: Showcase
+title: Projects
 description: ""
 type: landing
 
@@ -8,7 +8,7 @@ sections:
     content:
       filters:
         folders:
-          - showcase
+          - projects
     design:
       view: card
       spacing:
