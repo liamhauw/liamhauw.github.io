@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Multimedia System engineer
+role: Multimedia system engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:

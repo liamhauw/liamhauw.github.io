@@ -1,6 +1,6 @@
 ---
-title: Other
-weight: 2
+title: Software engineering
+weight: 3
 ---
 
 {{< cards >}}
