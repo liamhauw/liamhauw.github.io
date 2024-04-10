@@ -5,4 +5,4 @@ weight: 1
 ---
 
 ## Resource
-- [lubuldaong](https://labuladong.online/algo/)
+- [lubuladong](https://labuladong.online/algo/)
