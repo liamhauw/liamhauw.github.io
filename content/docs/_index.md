@@ -37,5 +37,5 @@ Computer science is the study of computation, information, and automation.
   - Computer security and cryptography
   - Databases and data mining
 
-## Study
-[csdiy](https://csdiy.wiki/en/)
+## Resource
+- [csdiy](https://csdiy.wiki/en/)

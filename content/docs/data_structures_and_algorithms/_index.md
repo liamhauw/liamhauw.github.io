@@ -4,6 +4,5 @@ weight: 1
 ---
 
 {{< cards >}}
-  {{< card url="data_structures" title="Data structures" icon="list-bullet" >}}
-  {{< card url="algorithms" title="Algorithms" icon="building-library" >}}
+  {{< card url="base" title="Base" icon="building-library" >}}
 {{< /cards >}}
