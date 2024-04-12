@@ -10,5 +10,6 @@ sections:
       text: Record my documents and projects. 🏖
     design:
       background:
-        image: home.jpg
+        image:
+          filename: home.jpg
 ---

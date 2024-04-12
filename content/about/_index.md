@@ -7,9 +7,6 @@ sections:
   - block: resume-biography
     content:
       username: admin
-    design:
-      banner:
-        filename: 'banner.jpg'
   - block: resume-experience
     content:
       username: admin
