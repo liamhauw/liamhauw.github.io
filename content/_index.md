@@ -6,8 +6,8 @@ type: landing
 sections:
   - block: hero
     content:
-      title: Liam Hauw
-      text: Record my documents and projects. 🏖
+      title: Hey, I'm Liam Hauw
+      text: Welcome to my personal website 🏖
     design:
       background:
         image:
