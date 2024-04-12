@@ -12,4 +12,6 @@ sections:
       background:
         image:
           filename: home.jpg
+          filters:
+            brightness: 0.7
 ---
