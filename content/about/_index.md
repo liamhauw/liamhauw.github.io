@@ -1,7 +1,5 @@
 ---
 title: 'About'
-description: ""
-type: landing
 
 design:
   spacing: "1rem"

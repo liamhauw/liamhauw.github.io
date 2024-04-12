@@ -1,7 +1,5 @@
 ---
 title: Projects
-description: ""
-type: landing
 
 sections:
   - block: collection
