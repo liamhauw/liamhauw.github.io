@@ -41,6 +41,13 @@ highlight_name: true
 
 # Author's website URL
 website: ""
+
+work:
+  - title: CEO
+    position: 'a'
+    company_name: 'b'
+    date_start: '2021-01-01'
+    date_end: ''
 ---
 
 Liam Hauw is multimedia system engineer at OPPO. His research interests include rendering and game engine. He is in the graphics and XR group, which optimizes the graphics quality and performance of mobile games.

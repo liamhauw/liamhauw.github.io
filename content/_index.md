@@ -10,4 +10,9 @@ sections:
     design:
       banner:
         filename: 'banner.jpg'
+  - block: resume-experience
+    content:
+      username: admin
+    design:
+      date_format: 'January 2006'
 ---
