@@ -7,6 +7,8 @@ sections:
   - block: hero
     content:
       title: Liam Hauw
-      text: Recard my documents and projects. 🏖
-
+      text: Record my documents and projects. 🏖
+    design:
+      background:
+        image: home.jpg
 ---
