@@ -35,16 +35,19 @@ work:
     company_name: OPPO
     date_start: '2023-07-15'
     date_end: ''
+    text: Optimizes the graphics quality and performance of mobile games
 
 education:
   - area: Optical engineering
     institution: Xidian University
     date_start: '2020-09-01'
     date_end: '2023-07-01'
+    text: Research physical based rendering and fluid simulation
   - area: Electronic science and technology
     institution: Xidian University
     date_start: '2016-09-01'
     date_end: '2020-07-01'
+    text: Mainly study physics
   
 ---
 
