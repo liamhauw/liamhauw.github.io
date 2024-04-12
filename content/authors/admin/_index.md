@@ -1,34 +1,24 @@
 ---
-# Display name
 title: Liam Hauw
 
-# Name pronunciation (optional)
 name_pronunciation: ''
 
-# Full name (for SEO)
 first_name: Liam
 last_name: Hauw
 
-# Status emoji
 status:
   icon: 🍉
 
-# Is this the primary user of the site?
 superuser: true
 
-# Role/position/tagline
 role: Multimedia system engineer
 
-# Organizations/Affiliations to show in About widget
 organizations:
   - name: OPPO
     url: https://www.oppo.com/en/
 
-# Short bio (displayed in user profile at end of posts)
 bio: My research interests include rendering and game engine.
 
-# Social Networking
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
     url: 'mailto:liamhauw@gmail.com'
@@ -36,18 +26,26 @@ profiles:
   - icon: brands/github
     url: https://github.com/liamhauw
 
-# Highlight the author in author lists? (true/false)
 highlight_name: true
 
-# Author's website URL
 website: ""
 
 work:
-  - title: CEO
-    position: 'a'
-    company_name: 'b'
-    date_start: '2021-01-01'
+  - position: Multimedia system engineer
+    company_name: OPPO
+    date_start: '2023-07-15'
     date_end: ''
+
+education:
+  - area: Optical engineering
+    institution: Xidian University
+    date_start: '2020-09-01'
+    date_end: '2023-07-01'
+  - area: Electronic science and technology
+    institution: Xidian University
+    date_start: '2016-09-01'
+    date_end: '2020-07-01'
+  
 ---
 
 Liam Hauw is multimedia system engineer at OPPO. His research interests include rendering and game engine. He is in the graphics and XR group, which optimizes the graphics quality and performance of mobile games.
