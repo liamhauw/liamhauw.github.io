@@ -3,6 +3,9 @@ title: 'About'
 description: ""
 type: landing
 
+design:
+  spacing: "3rem"
+
 sections:
   - block: resume-biography
     content:
