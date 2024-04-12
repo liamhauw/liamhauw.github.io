@@ -4,7 +4,7 @@ description: ""
 type: landing
 
 design:
-  spacing: "3rem"
+  spacing: "1rem"
 
 sections:
   - block: resume-biography
