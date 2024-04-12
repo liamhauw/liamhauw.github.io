@@ -42,7 +42,7 @@ education:
     institution: Xidian University
     date_start: '2020-09-01'
     date_end: '2023-07-01'
-    summary : Research physical based rendering and fluid simulation
+    summary : Research physically based rendering and fluid simulation
   - area: Electronic science and technology
     institution: Xidian University
     date_start: '2016-09-01'
@@ -52,4 +52,3 @@ education:
 ---
 
 Liam Hauw is multimedia system engineer at OPPO. His research interests include rendering and game engine. He is in the graphics and XR group, which optimizes the graphics quality and performance of mobile games.
-
