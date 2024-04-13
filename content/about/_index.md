@@ -1,5 +1,4 @@
 ---
-title: 'About'
 type: landing
 
 design:

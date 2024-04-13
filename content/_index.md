@@ -1,13 +1,11 @@
 ---
-title: 'Home'
-date: 2024-04-12
 type: landing
 
 sections:
   - block: hero
     content:
-      title: Hey, I'm Liam Hauw
-      text: Welcome to my personal website 🏖
+      title: Hey, I'm Liam Hauw 👋
+      text: Welcome to my personal website
     design:
       background:
         image:
