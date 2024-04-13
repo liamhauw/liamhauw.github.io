@@ -6,7 +6,7 @@ sections:
   - block: hero
     content:
       title: Showcase
-      text: Record my self-developed projects
+      text: Record my self-developed projects 📚
       primary_action:
         icon: brands/github
         text: Open source

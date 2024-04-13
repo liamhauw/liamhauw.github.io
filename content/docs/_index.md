@@ -3,7 +3,7 @@ linkTitle: Docs
 title: Introducation
 ---
 
-👋 Welcome to my documents
+Record my documents 📚
 
 ## Next
 
