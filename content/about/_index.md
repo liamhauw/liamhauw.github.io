@@ -1,5 +1,6 @@
 ---
 title: 'About'
+type: landing
 
 design:
   spacing: "0rem"
