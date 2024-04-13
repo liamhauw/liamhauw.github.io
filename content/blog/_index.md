@@ -1,3 +1,3 @@
 ---
-title: Record my daily life 🏖
+title: Daily life 🏖
 ---

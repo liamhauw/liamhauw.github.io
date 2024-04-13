@@ -3,8 +3,6 @@ linkTitle: Docs
 title: Introduction
 ---
 
-Record my documents 📚
-
 ## Next
 
 {{< cards >}}

@@ -2,14 +2,14 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Documentation
-    url: docs/
+  - name: Blog
+    url: blog/
     weight: 20
   - name: Project
     url: project/
     weight: 30
-  - name: Blog
-    url: blog/
+  - name: Documentation
+    url: docs/
     weight: 40
   - name: About
     url: about/

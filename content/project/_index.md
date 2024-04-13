@@ -1,3 +1,3 @@
 ---
-title: Showcase my self-developed projects 🚀
+title: Showcase here 🚀
 ---
