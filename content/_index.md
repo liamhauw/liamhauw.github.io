@@ -11,5 +11,5 @@ sections:
         image:
           filename: home.jpg
           filters:
-            brightness: 0.95
+            brightness: 0.85
 ---
