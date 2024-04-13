@@ -27,11 +27,6 @@ cascade:
     header:
       navbar:
         enable: true
-  - _target:
-      path: /blog/*
-      kind: section
-    # view: date-title-summary
-    view: showcase
 
 ############################
 ## LANGUAGE
