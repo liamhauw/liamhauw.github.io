@@ -5,8 +5,8 @@ type: landing
 sections:
   - block: hero
     content:
-      title: Showcase my self-developed projects
-      text: Supported platforms include Windows and macOS
+      title: Showcase
+      text: Record my self-developed projects
       primary_action:
         icon: brands/github
         text: Open source
