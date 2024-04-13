@@ -7,12 +7,6 @@ baseURL: 'https://example.com/'
 
 cascade:
   - _target:
-      path: /docs/**
-    show_date: false
-    show_date_updated: true
-    editable: true
-    show_breadcrumb: true
-  - _target:
       path: /blog/**
     show_date: true
     show_date_updated: true
@@ -28,6 +22,28 @@ cascade:
     header:
       navbar:
         enable: true
+  - _target:
+      path: /project/**
+    show_date: true
+    show_date_updated: true
+    reading_time: true
+    share: false
+    profile: true
+    commentable: false
+    editable: true
+    pager: true
+    show_related: true
+    share: false
+    show_breadcrumb: false
+    header:
+      navbar:
+        enable: true
+  - _target:
+      path: /docs/**
+    show_date: false
+    show_date_updated: true
+    editable: true
+    show_breadcrumb: true
 
 ############################
 ## LANGUAGE
