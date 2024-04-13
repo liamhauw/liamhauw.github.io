@@ -1,21 +1,22 @@
 ---
 title: Project
+subtitle: Record my self-developed projects 🎮
 type: landing
 
 sections:
-  - block: hero
-    content:
-      title: Showcase
-      text: Record my self-developed projects 🎮
-      primary_action:
-        icon: brands/github
-        text: Open source
-        url: "https://github.com/liamhauw"
-      secondary_action:
-        text: Explore more on github.com
-        url: https://github.com/
-    design:
-      no_padding: true
+  # - block: hero
+  #   content:
+  #     title: Showcase
+  #     text: Record my self-developed projects 🎮
+  #     primary_action:
+  #       icon: brands/github
+  #       text: Open source
+  #       url: "https://github.com/liamhauw"
+  #     secondary_action:
+  #       text: Explore more on github.com
+  #       url: https://github.com/
+  #   design:
+  #     no_padding: true
   - block: collection
     content:
       filters:
