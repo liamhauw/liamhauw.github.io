@@ -1,5 +1,6 @@
 ---
-title: Docs
+linkTitle: Docs
+title: Introducation
 ---
 
 👋 Welcome to my documents
