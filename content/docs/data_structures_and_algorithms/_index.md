@@ -1,6 +1,6 @@
 ---
 title: Data structures and algorithms
-weight: 1
+weight: 2
 ---
 
 {{< cards >}}
