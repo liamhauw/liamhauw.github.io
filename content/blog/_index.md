@@ -1,4 +1,3 @@
 ---
-title: Blog
-subtitle: Record my daylife 
+title: Record my daily life.
 ---
