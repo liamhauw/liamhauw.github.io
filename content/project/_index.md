@@ -1,7 +1,7 @@
 ---
 title: Project
 subtitle: Record my self-developed projects 🎮
-type: landing
+# type: landing
 
 sections:
   # - block: hero
