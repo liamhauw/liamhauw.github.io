@@ -29,7 +29,7 @@ cascade:
         enable: true
   - _target:
       path: /blog/*
-      kind: section
+      # kind: section
     view: date-title-summary
 
 ############################
