@@ -3,8 +3,6 @@ title: 'Home'
 date: 2024-04-12
 type: landing
 
-spacing: "6rem"
-
 sections:
   - block: hero
     content:

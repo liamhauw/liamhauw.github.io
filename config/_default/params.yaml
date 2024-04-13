@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  mode: dark
-  color: blue
+  mode: system
+  color: indigo
 
 # SEO
 marketing:
@@ -37,24 +37,14 @@ header:
     fixed_to_top: true
     logo:
       text: ""
-      # Logo filename in `assets/media/` folder
       filename: "logo.svg"
-    # button:
-    #   enable: true
-    #   text: "Get Started"
-    #   url: "https://hugoblox.com/templates/details/docs/"
     show_search: true
     show_theme_chooser: true
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Liam Hauw. Licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+    notice: '© {year} Liam Hauw'
 
 # Localization
 locale:

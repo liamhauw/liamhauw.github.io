@@ -1,26 +1,17 @@
-# Configuration of Hugo
-# Guide: https://docs.hugoblox.com/tutorial/
-# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
-title: "Liam Hauw" # Website name
-baseURL: 'https://example.com/' # Website URL
+title: "Liam Hauw"
+baseURL: 'https://example.com/'
 
 ############################
 ## PAGE OPTIONS
 ############################
 
 cascade:
-  # Docs folder options
   - _target:
       path: /docs/**
     editable: true
     show_breadcrumb: true
-    # Hide date from Next In Series
     show_date: false
-    # Show date modified at end of content
     show_date_updated: true
-  # Blog post options
   - _target:
       path: /blog/**
       kind: page
@@ -32,11 +23,14 @@ cascade:
     commentable: true
     show_related: true
     share: false
-    # Just use Breadcrumb for navigation on blog post pages?
     show_breadcrumb: false
     header:
       navbar:
         enable: true
+  - _target:
+    path: /blog/*
+    kind: section
+  view: date-title-summary
 
 ############################
 ## LANGUAGE
