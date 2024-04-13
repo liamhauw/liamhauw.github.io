@@ -8,19 +8,29 @@ baseURL: 'https://example.com/'
 cascade:
   - _target:
       path: /docs/**
-    editable: true
-    show_breadcrumb: true
     show_date: false
-    show_date_updated: true
+    show_date_updated: false
+    reading_time: true
+    share: false
+    profile: true
+    commentable: false
+    editable: true
+    pager: false
+    show_related: false
+    show_breadcrumb: true
+    header:
+      navbar:
+        enable: true
   - _target:
       path: /blog/**
-      kind: page
-    pager: true
-    editable: true
-    hide_date: false
+    show_date: true
     show_date_updated: true
     reading_time: true
-    commentable: true
+    share: false
+    profile: true
+    commentable: false
+    editable: true
+    pager: true
     show_related: true
     share: false
     show_breadcrumb: false

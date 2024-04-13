@@ -22,7 +22,7 @@ sections:
         folders:
           - project
     design:
-      view: article-grid
+      view: card
       spacing:
         padding: [0, 0, 0, 0]
 ---
