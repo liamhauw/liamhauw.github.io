@@ -23,7 +23,7 @@ sections:
         folders:
           - project
     design:
-      view: date-title-summary
+      view: card
       spacing:
-        padding: ['3rem', 0, '6rem', 0]
+        padding: [0, 0, 0, 0]
 ---
