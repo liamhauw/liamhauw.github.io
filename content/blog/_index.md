@@ -1,4 +1,4 @@
 ---
 title: Blog
-subtitel: Record my daylife 
+subtitle: Record my daylife 
 ---
