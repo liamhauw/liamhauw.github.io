@@ -15,6 +15,7 @@ sections:
         text: Explore more on github.com
         url: https://github.com/
     design:
+      no_padding: true
       spacing:
         padding: [0, 0, 0, 0]
   - block: collection
