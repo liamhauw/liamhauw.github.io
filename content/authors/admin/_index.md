@@ -20,11 +20,13 @@ organizations:
 bio: My research interests include rendering and game engine.
 
 profiles:
+  - icon: brands/github
+    url: https://github.com/liamhauw
+  - icon: brands/discord
+    url: https://discord.gg/8wCasdfJ
   - icon: at-symbol
     url: 'mailto:liamhauw@gmail.com'
     label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/liamhauw
 
 highlight_name: true
 
