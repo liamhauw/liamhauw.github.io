@@ -1,7 +1,7 @@
 ---
-title: Let's go, mavs!
+title: Let's Go, Mavs!
 summary: ✈️✈️✈️
-data: 2024-04-13
+date: 2024-04-13
 authors:
   - admin
 tags:
