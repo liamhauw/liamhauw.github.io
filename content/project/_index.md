@@ -23,7 +23,7 @@ sections:
     content:
       filters:
         folders:
-          - projects
+          - project
     design:
       view: card
       spacing:
