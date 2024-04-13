@@ -28,8 +28,8 @@ cascade:
       navbar:
         enable: true
   - _target:
-    path: /blog/*
-    kind: section
+      path: /blog/*
+      kind: section
     view: date-title-summary
 
 ############################
