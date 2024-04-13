@@ -15,17 +15,15 @@ sections:
         text: Explore more on github.com
         url: https://github.com/
     design:
-      no_padding: true
       spacing:
         padding: [0, 0, 0, 0]
-        margin: [0, 0, 0, 0]
   - block: collection
     content:
       filters:
         folders:
           - project
     design:
-      view: card
+      view: date-title-summary
       spacing:
         padding: ['3rem', 0, '6rem', 0]
 ---
