@@ -10,14 +10,8 @@ cascade:
       path: /docs/**
     show_date: false
     show_date_updated: false
-    reading_time: true
-    share: false
-    profile: true
-    commentable: false
     editable: true
-    pager: false
-    show_related: false
-    show_breadcrumb: true
+    show_breadcrumb: false
     header:
       navbar:
         enable: true
