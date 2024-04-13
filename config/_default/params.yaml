@@ -6,11 +6,11 @@ appearance:
 # SEO
 marketing:
   seo:
-    site_type: Project
+    site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo documentation theme powered by Hugo Blox website builder.'
-    twitter: 'GetResearchDev'
+    description: 'Liam Hauw's personl website'
+    twitter: 'Liam Hauw'
   analytics:
     google_analytics: ''
     google_tag_manager: ''
@@ -18,7 +18,7 @@ marketing:
     baidu_tongji: ''
     plausible: ''
     fathom: ''
-    pirsch: ''
+    pirsch: 'sVH8ZixkFx5eeeLTUTEuChwFdELkrA7n'
   verification:
     google: 'BzQwJPjBsb_Etsyllnh7LgRwIifs4qbDyi_VUj3GupQ'
     baidu: ''
