@@ -1,6 +1,6 @@
 ---
-linkTitle: Doc
-title: Doc
+linkTitle: Documentation
+title: Introduction
 ---
 
 Record my documents 📚
