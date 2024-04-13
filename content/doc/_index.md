@@ -1,7 +1,6 @@
 ---
-linkTitle: Docs
-title: Docs
-type: landing
+linkTitle: Doc
+title: Doc
 ---
 
 Record my documents 📚
