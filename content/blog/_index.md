@@ -1,4 +1,4 @@
 ---
 title: Blog
-subtitle: Record my daylife 📚
+subtitel: Record my daylife 
 ---
