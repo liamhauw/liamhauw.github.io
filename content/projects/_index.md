@@ -1,5 +1,6 @@
 ---
 title: Projects
+type: landing
 
 sections:
   - block: hero
@@ -11,7 +12,7 @@ sections:
         text: Open source
         url: "https://github.com/liamhauw"
       secondary_action:
-        text: Explore More on github
+        text: Explore more on github.com
         url: https://github.com/
     design:
       no_padding: true
