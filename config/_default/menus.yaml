@@ -5,9 +5,12 @@ main:
   - name: Documentation
     url: docs/
     weight: 20
-  - name: Projects
-    url: projects/
+  - name: Project
+    url: project/
     weight: 30
+  - name: Blog
+    url: blog/
+    weight: 40
   - name: About
     url: about/
-    weight: 40
+    weight: 50
