@@ -11,6 +11,7 @@ Computer science is the study of computation, information, and automation.
   - Theory of computation
   - Information and coding theory
   - Data structures and algorithms
+    - Base
   - Programming language theory and formal methods
 - Applied computer science
   - Computer graphics and visualization
@@ -29,6 +30,7 @@ Computer science is the study of computation, information, and automation.
   - Computational science, finance and engineering
   - Social computing and human–computer interaction
   - Software engineering
+    - Cpp
   - Artificial intelligence
 - Computer systems
   - Computer architecture and organization
