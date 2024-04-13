@@ -16,15 +16,13 @@ sections:
         url: https://github.com/
     design:
       no_padding: true
-      spacing:
-        padding: [0, 0, 0, 0]
   - block: collection
     content:
       filters:
         folders:
           - project
     design:
-      view: card
+      view: article-grid
       spacing:
         padding: [0, 0, 0, 0]
 ---
