@@ -56,18 +56,33 @@ skills:
     items:
       - name: Vulkan
         percent: 80
-        icon: vulkan
+        icon: custom/vulkan
+      - name: Direct3D12
+        percent: 70
+        icon: custom/direct3d12
       - name: OpenGL
         percent: 70
         icon: devicon/opengl
       - name: Unreal Engine
         percent: 30
-        icon: unreal-engine
+        icon: custom/unreal-engine
       - name: Unity
         percent: 20
-        icon: unity
+        icon: custom/unity
+      - name: Cesium
+        percent: 50
+        icon: custom/cesium
   - name: Software engineering
     items:
+      - name: Windows
+        percent: 70
+        icon: devicon/windows11
+      - name: macOS
+        percent: 70
+        icon: custom/macos
+      - name: Android
+        percent: 70
+        icon: devicon/android
       - name: Git
         percent: 70
         icon: devicon/git
