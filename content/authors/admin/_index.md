@@ -1,8 +1,6 @@
 ---
 title: Liam Hauw
 
-name_pronunciation: ''
-
 first_name: Liam
 last_name: Hauw
 
@@ -27,10 +25,6 @@ profiles:
   - icon: at-symbol
     url: 'mailto:liamhauw@gmail.com'
     label: E-mail Me
-
-highlight_name: true
-
-website: ""
 
 work:
   - position: Multimedia system engineer
