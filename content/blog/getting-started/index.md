@@ -15,4 +15,4 @@ My personal website is [here](https://liamhauw.github.io/).
 - [Hugo Blox Builder](https://hugoblox.com/)
 - [Repository](https://github.com/liamhauw/liamhauw.github.io)
 - [SEO](https://search.google.com/search-console?resource_id=https%3A%2F%2Fliamhauw.github.io%2F)
-- [Analytics](https://pirsch.io/)
+- [Analytics](https://liamhauw.pirsch.io/?domain=liamhauw.github.io&interval=7d&scale=day)
