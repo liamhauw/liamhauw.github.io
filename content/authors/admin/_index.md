@@ -52,12 +52,34 @@ education:
     summary : Mainly study physics
 
 skills:
-  - name: Technical
+  - name: Computer graphics
     items:
+      - name: Vulkan
+        percent: 80
+        icon: vulkan
+      - name：OpenGL
+        percent: 70
+        icon: devicon/opengl
+      - name: Unreal Engine
+        percent: 30
+        icon: unreal-engine
+      - name: Unity
+        percent: 20
+        icon: unity
+  - name: Software engineering
+    items:
+      - name: Git
+        percent: 70
+        icon: devicon/git
+      - name: CMake
+        percent: 60
+        icon: devicon/cmake
       - name: Cpp
-        description: ''
         percent: 80
         icon: devicon/cplusplus
+      - name: VSCode
+        percent: 70
+        icon: devicon/vscode
 
 ---
 
