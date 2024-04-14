@@ -57,7 +57,7 @@ skills:
       - name: Vulkan
         percent: 80
         icon: vulkan
-      - name：OpenGL
+      - name: OpenGL
         percent: 70
         icon: devicon/opengl
       - name: Unreal Engine
