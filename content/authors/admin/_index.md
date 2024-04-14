@@ -15,7 +15,7 @@ organizations:
   - name: OPPO
     url: https://www.oppo.com/en/
 
-bio: My research interests include rendering and game engine.
+bio: His research interests include computer graphics and software engineering.
 
 profiles:
   - icon: brands/github

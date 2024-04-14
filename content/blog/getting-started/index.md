@@ -1,5 +1,5 @@
 ---
-title: Getting Statred!
+title: Getting Started!
 summary: My personal websit is online 😎
 date: 2024-04-01
 authors:
