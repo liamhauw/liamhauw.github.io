@@ -65,10 +65,10 @@ skills:
         icon: devicon/opengl
       - name: Unreal Engine
         percent: 30
-        icon: custom/unreal-engine
+        icon: devicon/unreal-engine
       - name: Unity
         percent: 20
-        icon: custom/unity
+        icon: devicon/unity
       - name: Cesium
         percent: 50
         icon: custom/cesium
@@ -79,7 +79,7 @@ skills:
         icon: devicon/windows11
       - name: macOS
         percent: 70
-        icon: custom/macos
+        icon: devicon/apple
       - name: Android
         percent: 70
         icon: devicon/android
