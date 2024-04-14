@@ -99,6 +99,14 @@ skills:
         percent: 70
         icon: devicon/vscode
 
+awards:
+  - title: Complete multiple games
+    awarder: Steam
+    date: 'present'
+    summary: This award recognizes outstanding gaming abilities.
+    certificate_url: https://example.com/certificate.pdf
+    icon: custom/steam
+
 ---
 
 Liam Hauw is a multimedia system engineer at OPPO. His research interests include rendering and game engine. He is in the graphics and XR group, which optimizes the graphics quality and performance of mobile games.

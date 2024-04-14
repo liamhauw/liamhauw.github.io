@@ -17,4 +17,8 @@ sections:
     content:
       title: Skill
       username: admin
+  - block: resume-awards
+    content:
+      title: Awards
+      username: admin
 ---
