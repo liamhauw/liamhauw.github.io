@@ -72,6 +72,9 @@ skills:
       - name: Cesium
         percent: 50
         icon: custom/cesium
+      - name: pbrt
+        percent: 60
+        icon: hero/bolt
   - name: Software engineering
     items:
       - name: Windows
