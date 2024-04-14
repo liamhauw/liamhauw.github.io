@@ -59,13 +59,13 @@ skills:
         icon: custom/vulkan
       - name: Direct3D12
         percent: 70
-        icon: custom/direct3d12
+        icon: devicon/windows11
       - name: OpenGL
         percent: 70
         icon: devicon/opengl
       - name: Unreal Engine
         percent: 30
-        icon: devicon/unreal-engine
+        icon: devicon/unrealengine
       - name: Unity
         percent: 20
         icon: devicon/unity
