@@ -3,7 +3,7 @@ linkTitle: Docs
 title: Introduction
 ---
 
-Record some important stuff here.
+Record my notes.
 
 ## Next
 {{< cards >}}
