@@ -1,9 +1,6 @@
 ---
 type: landing
 
-design:
-  spacing: "0rem"
-
 sections:
   - block: resume-biography
     content:
@@ -19,6 +16,10 @@ sections:
       username: admin
   - block: resume-awards
     content:
-      title: Awards
+      title: Award
+      username: admin
+  - block: resume-languages
+    content:
+      title: Language
       username: admin
 ---

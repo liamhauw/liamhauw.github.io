@@ -103,8 +103,13 @@ awards:
   - title: Complete multiple games
     awarder: Steam
     summary: This award recognizes outstanding gaming abilities.
-    certificate_url: https://example.com/certificate.pdf
-    icon: custom/steam
+    certificate_url: https://store.steampowered.com/
+
+languages:
+  - name: Chinese
+    percent: 100
+  - name: English
+    percent: 70
 
 ---
 
