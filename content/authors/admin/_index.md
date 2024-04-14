@@ -102,7 +102,6 @@ skills:
 awards:
   - title: Complete multiple games
     awarder: Steam
-    date: 'present'
     summary: This award recognizes outstanding gaming abilities.
     certificate_url: https://example.com/certificate.pdf
     icon: custom/steam
