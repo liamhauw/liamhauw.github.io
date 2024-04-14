@@ -50,7 +50,15 @@ education:
     date_start: '2016-09-01'
     date_end: '2020-07-01'
     summary : Mainly study physics
-  
+
+skills:
+  - name: Technical
+    items:
+      - name: Cpp
+        description: ''
+        percent: 80
+        icon: devicon/cplusplus
+
 ---
 
 Liam Hauw is a multimedia system engineer at OPPO. His research interests include rendering and game engine. He is in the graphics and XR group, which optimizes the graphics quality and performance of mobile games.
