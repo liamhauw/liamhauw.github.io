@@ -15,11 +15,11 @@ title: Documentation
   - [Data structures and algorithms]({{< relref "data_structures_and_algorithms" >}})
   - Programming language theory and formal methods
 - Applied computer science
-  - Computer graphics and visualization
+  - [Computer graphics]({{< relref "computer_graphics" >}})
   - Image and sound processing
   - Computational science, finance and engineering
   - Social computing and human–computer interaction
-  - Software engineering({{< relref "software_engineering" >}})
+  - [Software engineering]({{< relref "software_engineering" >}})
   - Artificial intelligence
 
 ## Resource
