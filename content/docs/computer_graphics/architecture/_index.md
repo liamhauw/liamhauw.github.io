@@ -9,13 +9,14 @@ weight: 1
 ### Tile-based deferred rendering
 Traditional GPU architecture is immediate mode rendering (IMR).
 
-![imr](image/imr.jpg)
+![imr](image/imr.jpg "IMR")
 
 All PowerVR GPUs are based on unique Tile Based Deferred Rendering (TBDR) architecture. TBDR combines two complementary architectural features to provide the very highest levels of efficiency and performance:
 - Tile-based rendering
 - Deferred rendering
 
-![tbdr](image/tbdr.jpg)
+![s7xt](image/s7xt.png "PowerVR Series7xT")
+![tbdr](image/tbdr.jpg "TBDR")
 
 ### Tile-based rendering
 The PowerVR architecture splits the screen into a number of ‘tiles’, which are then processed individually (in parallel to other tiles). Since the GPU only needs to work on a subset of the complete scene data at any given time, this data (such as colour and depth buffers) is small enough to be stored in internal GPU memory, significantly reducing the required number of accesses to system level memory. This results in lower energy and bandwidth consumption and also higher performance.
