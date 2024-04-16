@@ -18,8 +18,7 @@ Computer science is the study of computation, information, and automation.
 - Theoretical computer science
   - Theory of computation
   - Information and coding theory
-  - Data structures and algorithms
-    - Base
+  - [Data structures and algorithms]({{< relref "./data_structures_and_algorithms" >}})
   - Programming language theory and formal methods
 - Applied computer science
   - Computer graphics and visualization
@@ -35,8 +34,7 @@ Computer science is the study of computation, information, and automation.
   - Image and sound processing
   - Computational science, finance and engineering
   - Social computing and human–computer interaction
-  - Software engineering
-    - Cpp
+  - [Software engineering]({{< relref "./software_enginerring" >}})
   - Artificial intelligence
 
 ## Resource

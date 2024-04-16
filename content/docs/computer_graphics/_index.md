@@ -1,6 +1,6 @@
 ---
 title: Computer graphics
-weight: 3
+weight: 2
 ---
 
 {{< cards >}}
