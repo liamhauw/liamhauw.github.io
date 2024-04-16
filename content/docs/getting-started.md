@@ -1,6 +1,6 @@
 ---
 title: Getting started
-date: 2024-04-14
+date: 2024-04-16
 weight: 1
 ---
 
@@ -9,6 +9,12 @@ Computer science is the study of computation, information, and automation.
 
 ## Fields
 
+- Computer systems
+  - Computer architecture and organization
+  - Concurrent, parallel and distributed computing
+  - Computer networks
+  - Computer security and cryptography
+  - Databases and data mining
 - Theoretical computer science
   - Theory of computation
   - Information and coding theory
@@ -17,15 +23,13 @@ Computer science is the study of computation, information, and automation.
   - Programming language theory and formal methods
 - Applied computer science
   - Computer graphics and visualization
-    - Basics
-      - Geometry 
-      - Rendering
-      - Animation
-        - Character animation
-        - Physical simulation
     - GPU
-      - Architecture
-      - Vulkan
+      - [Architecture]({{< relref "./computer_graphics/architecture" >}})
+      - [Vulkan]({{< relref "./computer_graphics/vulkan" >}})
+    - Theory
+      - Geometry 
+      - [Rendering]({{< relref "./computer_graphics/rendering" >}})
+      - Animation
     - Application
       - Unreal Engine
   - Image and sound processing
@@ -34,12 +38,6 @@ Computer science is the study of computation, information, and automation.
   - Software engineering
     - Cpp
   - Artificial intelligence
-- Computer systems
-  - Computer architecture and organization
-  - Concurrent, parallel and distributed computing
-  - Computer networks
-  - Computer security and cryptography
-  - Databases and data mining
 
 ## Resource
 - [csdiy](https://csdiy.wiki/en/)
