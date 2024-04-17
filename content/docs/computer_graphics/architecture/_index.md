@@ -74,11 +74,11 @@ This means that unnecessary processing of hidden pixels is eliminated, which fur
 
 ### Reference
 - [Qualcomm developer](https://developer.qualcomm.com/)
-- [Snapdragon Game Toolkit](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/snapdragon-game-toolkit/index.html)
+- [Snapdragon game toolkit](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/snapdragon-game-toolkit/index.html)
 - [Arm developer](https://developer.arm.com/)
 - [Tile-based rendering](https://developer.arm.com/documentation/102662/0100)
 - [Imagination developer](https://developer.imaginationtech.com/)
 - [PowerVR graphics architectures](https://www.imaginationtech.com/products/gpu/graphics-architecture/)
-- [Parallelizing and Optimizing Rasterization](https://gfxcourses.stanford.edu/cs248/winter21content/media/gfxhardware/18_mobilegpu_sQg6dwi.pdf)
+- [Parallelizing and optimizing rasterization](https://gfxcourses.stanford.edu/cs248/winter21content/media/gfxhardware/18_mobilegpu_sQg6dwi.pdf)
 - [IMR, TBR, TBDR and some understanding of GPU architecture](https://zhuanlan.zhihu.com/p/259760974)
 - [Summary of GPU architecture knowledge for mobile devices](https://zhuanlan.zhihu.com/p/259760974)
