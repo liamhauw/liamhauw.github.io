@@ -4,10 +4,20 @@ date: 2024-04-16
 weight: 1
 ---
 
+## Architecture taxonomy
+GPU architectures can be classified as sort-first, sort-middle (Tile-based rendering), sort-last fragment, and sort-last image:
+
+![architecture](image/architecture.png "A is the application, G’s are geometry
+units, R’s are rasterizer units, and P’s are pixel processing units. From left to right, the architectures are sort-first, sort-middle, sort-last fragment, and sort-last image. ")
+
+{{% callout note %}}
+Sort-middle is also called Tile-based rendering, and sort-last fragment is alse called immediate mode rendering.
+{{% /callout %}}
+
 ## Immediate mode rendering
 Desktop GPUs are based on Immediate mode rendering (IMR) architecture, which process rendering as a strict command stream, executing the vertex and fragment shaders in sequence on each primitive in every draw call:
 
-![imr](image/imr.jpg)
+![imr](image/imr.jpg "Immediate mode rendering")
 
 High-level pseudo-code example of this approach:
 ```
