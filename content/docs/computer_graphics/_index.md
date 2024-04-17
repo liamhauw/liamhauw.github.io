@@ -4,7 +4,7 @@ weight: 2
 ---
 
 ## Field
-- [Gpu]({{< relref "gpu" >}})
+- [GPU]({{< relref "gpu" >}})
 - [Vulkan]({{< relref "vulkan" >}})
 - Geometry 
 - [Rendering]({{< relref "rendering" >}})
