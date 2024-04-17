@@ -4,8 +4,7 @@ date: 2024-04-16
 weight: 1
 ---
 
-## Desktop
-### Immediate mode rendering
+## Immediate mode rendering
 Desktop GPUs are based on Immediate mode rendering (IMR) architecture, which process rendering as a strict command stream, executing the vertex and fragment shaders in sequence on each primitive in every draw call:
 
 ![imr](image/imr.jpg)
@@ -21,10 +20,10 @@ for draw in renderPass:
                 execute_fragment_shader(fragment)
 ```
 
-#### Advantage
+### Advantage
 The output of the vertex shader, and other geometry related shaders, can remain on-chip inside the GPU. The output of these shaders can be stored in a FIFO buffer until the next stage in the pipeline is ready to use the data. This means that the GPU uses little external memory bandwidth storing and retrieving intermediate geometry results.
 
-#### Disadvantage
+### Disadvantage
 The fragment shading jumps around the screen depending on the locations of the triangles in each draw. This happens because any triangle in the stream may cover any part of the screen and triangles are processed in draw order. The effect of this means that the active working set is the size of the entire framebuffer. 
 
 The GPU must fetch from this working set the current value of the data for the pixel coordinate of the current fragment for every blending, depth testing, and stencil testing operation.The bandwidth load placed on this memory can be very high because of multiple read-modify-write operations for each fragment
@@ -36,10 +35,8 @@ The GPU must fetch from this working set the current value of the data for the p
 - AMD
   - [AMD developer](https://www.amd.com/en/developer.html)
 
-## Mobile
-
-### Tile-based deferred rendering
-Mobile GPUs pursue are based on Tile-based Deferred Rendering (TBDR) architecture, which splits the screen into a number of tiles and fragment shade each small tile to completion before writing it out to memory:
+## Tile-based deferred rendering
+Mobile GPUs are based on Tile-based Deferred Rendering (TBDR) architecture, which splits the screen into a number of tiles and fragment shade each small tile to completion before writing it out to memory:
 
 ![tbdr-qualcomm](image/tbdr-qualcomm.png "Qualcomm TBDR")
 
