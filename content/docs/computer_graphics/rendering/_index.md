@@ -13,7 +13,7 @@ Given position, normal and tangent vector and model matirx.
 ## Variable rate shading
 
 ### Reference
-- [Visually Lossless Content and Motion Adaptive Shading in Games](https://leiy.cc/publications/nas/nas-pacmcgit.pdf)
+- [Visually lossless content and motion adaptive shading in games](https://leiy.cc/publications/nas/nas-pacmcgit.pdf)
 
 ## Best practices
 
@@ -22,7 +22,7 @@ Given position, normal and tangent vector and model matirx.
 
 ## Resource
 ### Real-time rendering
-- Real-time Rendering(4th)
+- Real-time rendering(4th)
 - Foundations of game engine development volume 2 rendering
 - Physics and math of shading
 - Moving Frostbite to Pbr

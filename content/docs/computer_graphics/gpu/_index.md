@@ -100,7 +100,7 @@ There is a cost to traversing the geometry repeatedly.
 - [Imagination developer](https://developer.imaginationtech.com/)
     - [PowerVR graphics architectures](https://www.imaginationtech.com/products/gpu/graphics-architecture/)
 - [Samsung developer](https://developer.samsung.com/)
-    - [Galaxy GameDev](https://developer.samsung.com/galaxy-gamedev)
+    - [Galaxy game development](https://developer.samsung.com/galaxy-gamedev)
 - [GPU Hardware and Parallel Rasterization](https://gfxcourses.stanford.edu/cs248a/winter24content/media/gpuhardware/18_mobilegpu.pdf)
 - [IMR, TBR, TBDR and some understanding of GPU architecture](https://zhuanlan.zhihu.com/p/259760974)
 - [Summary of GPU architecture knowledge for mobile devices](https://zhuanlan.zhihu.com/p/259760974)

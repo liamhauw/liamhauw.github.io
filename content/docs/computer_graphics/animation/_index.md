@@ -24,8 +24,8 @@ weight: 3
 - A parallel multigrid Poisson solver for fluids simulation on large grids
 - An advection-reflection solver for detail-preserving fluid simulation
 - An introduction to the conjugate gradient method without the agonizing pain
-- An unconditionally stable macCormack method
-- FlowFixer ssing BFECC for fluid simulation
+- An unconditionally stable MacCormack method
+- FlowFixer using BFECC for fluid simulation
 
 #### Lagrangian view
 - The classical FEM method and discretization methodology

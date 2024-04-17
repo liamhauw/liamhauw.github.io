@@ -5,6 +5,6 @@ weight: 1
 ---
 
 ## Resource
-- [x] [Programmercarl](https://programmercarl.com)
-- [ ] [Labuladong](https://labuladong.online/algo/)
-- [ ] [LeetCode](https://leetcode-cn.com)
+- [Programmercarl](https://programmercarl.com)
+- [Labuladong](https://labuladong.online/algo/)
+- [LeetCode](https://leetcode-cn.com)
