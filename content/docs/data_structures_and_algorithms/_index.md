@@ -4,7 +4,4 @@ weight: 1
 ---
 
 ## Field
-- [Base]({{< relref "base" >}})
-
-## Resource
-- [Labuladong algorithms notes](https://labuladong.online/algo/)
+- [Basics]({{< relref "basics" >}})

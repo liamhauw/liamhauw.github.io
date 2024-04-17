@@ -1,7 +1,7 @@
 ---
 title: Vulkan
 date: 2024-04-16
-weight: 2
+weight: 5
 ---
 
 ## Coordinate system
@@ -179,3 +179,7 @@ Registry Editor stores the vulkan explicit and implicit layers in the Computer\H
 ### Reference
 - [Vulkan Layer Factory](https://github.com/LunarG/Vulkan-Layer-Factory)
 - [Vulkan Loader](https://github.com/KhronosGroup/Vulkan-Loader)
+
+## Resource
+- [Vulkan](https://www.vulkan.org)
+- [Vulkan Tutorial](https://vulkan-tutorial.com)
