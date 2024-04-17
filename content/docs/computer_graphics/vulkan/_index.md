@@ -16,10 +16,10 @@ The coordinate system of gltf and glm is the right hand coordinate system. Howev
 
 Matrices are column priority storage, and when used in shaders, you need to multiply the matrix left by a vector, such as P * V * M * x, where x is the vector.
 
-## Variable rate shading
+## Mutiple threads
 
 ### Reference
-- [Visually Lossless Content and Motion Adaptive Shading in Games](https://leiy.cc/publications/nas/nas-pacmcgit.pdf)
+- [Vulkan Multi-Threading](https://developer.nvidia.com/sites/default/files/akamai/gameworks/blog/munich/mschott_vulkan_multi_threading.pdf)
 
 ## Synchronization
 
@@ -171,23 +171,10 @@ The way it works is very clever: it uses an integer counter, which each semaphor
 - [Synchronization Examples](https://github.com/KhronosGroup/Vulkan-Docs/wiki/Synchronization-Examples)
 - [Vulkan Synchronization explanation](https://zhuanlan.zhihu.com/p/350483554)
 
-## Mutiple threads
-
-### Reference
-- [Vulkan Multi-Threading](https://developer.nvidia.com/sites/default/files/akamai/gameworks/blog/munich/mschott_vulkan_multi_threading.pdf)
-
-## Best practices
-
-### Reference
-- [Arm Developer Documentation](https://developer.arm.com/documentation/101897/latest/)
-
 ## Loader
 
-### Layers
-#### location
-Registry Editor stores the vulkan explicit and implicit layers in the Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers
-
-
+### Windows layer
+Registry Editor stores the vulkan explicit and implicit layers in the Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan
 
 ### Reference
 - [Vulkan Layer Factory](https://github.com/LunarG/Vulkan-Layer-Factory)
