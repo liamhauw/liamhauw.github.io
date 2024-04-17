@@ -7,37 +7,32 @@ weight: 3
 ## Resource
 ### Fluid simulation
 #### Common
-- An Introduction to Physics-based Animation(2018)
-- Discrete Geometric Mechanics for Variational Time Integrators
-- Fast Simulation of Mass-Spring Systems
-- Real Time Physics
-- Fluid Simulation for Computer Graphics(2nd)
-- Fluid Engine Development
-- A Physically Based Pipeline for Real-Time Simulation and Rendering of Realistic Fire and Smoke
-- The Art of Fluid Animation
-- [taichiCourse01](https://github.com/taichiCourse01/taichiCourse01)
-- [GAMES201 Advanced Physics Engine 2020](https://www.bilibili.com/video/BV1ZK411H7Hc)
+- An introduction to physics-based animation(2018)
+- Discrete geometric mechanics for variational time integrators
+- Fast simulation of mass-spring Systems
+- Real time physics
+- Fluid simulation for computer graphics(2nd)
+- Fluid engine development
+- A physically based pipeline for real-time simulation and rendering of realistic fire and smoke
+- The art of fluid animation
+- [Taichi course01](https://github.com/taichiCourse01/taichiCourse01)
+- [GAMES201 advanced physics engine 2020](https://www.bilibili.com/video/BV1ZK411H7Hc)
 
 #### Eulerian view
-- Games201 Euler ppt
-- Taichi Course ppt
-- Visual Simulation of Smoke
-- A Multigrid Tutorial(2nd)
+- Visual simulation of smoke
+- A multigrid tutorial(2nd)
 - A parallel multigrid Poisson solver for fluids simulation on large grids
-- An Advection-Reflection Solver for Detail-Preserving Fluid Simulation
-- An Introduction to the Conjugate Gradient Method Without the Agonizing Pain
-- An Unconditionally Stable MacCormack Method
-- FlowFixer Using BFECC for Fluid Simulation
+- An advection-reflection solver for detail-preserving fluid simulation
+- An introduction to the conjugate gradient method without the agonizing pain
+- An unconditionally stable macCormack method
+- FlowFixer ssing BFECC for fluid simulation
 
 #### Lagrangian view
-- The Classical FEM Method and Discretization Methodology
-- Model Reduction
-- Unified Particle Physics for Real-Time Applications
-- A Survey on SPH Methods in Computer Graphics
-- [Smoothed Particle Hydrodynamics Techniques for the Physics Based Simulation of Fluids and Solids](https://interactivecomputergraphics.github.io/SPH-Tutorial/)
-
-#### Hybrid view
-- Games201 Hybrid ppt
+- The classical FEM method and discretization methodology
+- Model reduction
+- Unified particle physics for real-time applications
+- A survey on SPH methods in computer graphics
+- [SPH tutorial](https://interactivecomputergraphics.github.io/SPH-Tutorial/)
 
 ### Character animation
-- [GAMES105 Fundamentals of Character Animation](https://www.bilibili.com/video/BV1GG4y1p7fF)
+- [GAMES105 fundamentals of character animation](https://www.bilibili.com/video/BV1GG4y1p7fF)

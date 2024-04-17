@@ -5,5 +5,5 @@ weight: 8
 ---
 
 ## Resource
-- Game Engine Architecture
-- [GAMES104 Modern Game Engine](https://games104.boomingtech.com/sc/)
+- Game engine architecture
+- [GAMES104 modern game engine](https://games104.boomingtech.com/sc/)

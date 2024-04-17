@@ -5,7 +5,7 @@ weight: 6
 ---
 
 ## Resource
-- Computer Graphics Through OpenGL From Theory to Experiments (3rd)
-- OpenGL Programming Guide
-- [OpenGL](https://www.khronos.org/opengl/)
-- [LearnOpenGL](https://learnopengl.com)
+- Computer graphics through OpenGL from theory to experiments (3rd)
+- OpenGL programming guide
+- [OpenGL offical website](https://www.khronos.org/opengl/)
+- [Learn OpenGL](https://learnopengl.com)

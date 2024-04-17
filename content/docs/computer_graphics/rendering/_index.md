@@ -18,17 +18,17 @@ Given position, normal and tangent vector and model matirx.
 ## Best practices
 
 ### Reference
-- [Arm Developer Documentation](https://developer.arm.com/documentation/101897/latest/)
+- [Arm GPU best practices developer guide](https://developer.arm.com/documentation/101897/latest/)
 
 ## Resource
 ### Real-time rendering
-- Real-Time Rendering(4th)
-- Foundations of Game Engine Development Volume 2 Rendering
-- Physics and Math of Shading
+- Real-time Rendering(4th)
+- Foundations of game engine development volume 2 rendering
+- Physics and math of shading
 - Moving Frostbite to Pbr
-- Real Shading in Unreal Engine 4
-- [GAMES202 High-Quality Real-Time Rendering](https://www.bilibili.com/video/BV1YK4y1T7yY)
-- [shadertoy](https://www.shadertoy.com)
+- Real shading in Unreal Engine 4
+- [GAMES202 high-quality real-time rendering](https://www.bilibili.com/video/BV1YK4y1T7yY)
+- [Shadertoy](https://www.shadertoy.com)
 
 ### Offline rendering
-- [pbrt](https://www.pbrt.org)
+- [Pbrt](https://www.pbrt.org)

@@ -19,7 +19,7 @@ Matrices are column priority storage, and when used in shaders, you need to mult
 ## Mutiple threads
 
 ### Reference
-- [Vulkan Multi-Threading](https://developer.nvidia.com/sites/default/files/akamai/gameworks/blog/munich/mschott_vulkan_multi_threading.pdf)
+- [Vulkan multi-threading](https://developer.nvidia.com/sites/default/files/akamai/gameworks/blog/munich/mschott_vulkan_multi_threading.pdf)
 
 ## Synchronization
 
@@ -163,13 +163,13 @@ The new timeline semaphore approach comes with various advantages because it’s
 The way it works is very clever: it uses an integer counter, which each semaphore signals to increment upon completion, as a signal timeline.
 
 ### Reference
-- [Understanding Vulkan Synchronization](https://www.khronos.org/blog/understanding-vulkan-synchronization)
-- [Vulkan Timeline Semaphores](https://www.khronos.org/blog/vulkan-timeline-semaphores)
+- [Understanding Vulkan synchronization](https://www.khronos.org/blog/understanding-vulkan-synchronization)
+- [Vulkan timeline semaphores](https://www.khronos.org/blog/vulkan-timeline-semaphores)
 - [Yet another blog explaining Vulkan synchronization](https://themaister.net/blog/2019/08/14/yet-another-blog-explaining-vulkan-synchronization/)
 - [Keeping your GPU fed](https://www.youtube.com/watch?v=iZ3J25qsacA)
-- [Vulkan Guide](https://github.com/KhronosGroup/Vulkan-Guide/blob/main/chapters/synchronization.adoc)
-- [Synchronization Examples](https://github.com/KhronosGroup/Vulkan-Docs/wiki/Synchronization-Examples)
-- [Vulkan Synchronization explanation](https://zhuanlan.zhihu.com/p/350483554)
+- [Vulkan guide](https://github.com/KhronosGroup/Vulkan-Guide/blob/main/chapters/synchronization.adoc)
+- [Synchronization examples](https://github.com/KhronosGroup/Vulkan-Docs/wiki/Synchronization-Examples)
+- [Vulkan synchronization explanation](https://zhuanlan.zhihu.com/p/350483554)
 
 ## Loader
 
@@ -177,9 +177,9 @@ The way it works is very clever: it uses an integer counter, which each semaphor
 Registry Editor stores the vulkan explicit and implicit layers in the Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan
 
 ### Reference
-- [Vulkan Layer Factory](https://github.com/LunarG/Vulkan-Layer-Factory)
-- [Vulkan Loader](https://github.com/KhronosGroup/Vulkan-Loader)
+- [Vulkan layer factory](https://github.com/LunarG/Vulkan-Layer-Factory)
+- [Vulkan loader](https://github.com/KhronosGroup/Vulkan-Loader)
 
 ## Resource
-- [Vulkan](https://www.vulkan.org)
-- [Vulkan Tutorial](https://vulkan-tutorial.com)
+- [Vulkan offical website](https://www.vulkan.org)
+- [Vulkan tutorial](https://vulkan-tutorial.com)

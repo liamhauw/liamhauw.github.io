@@ -14,8 +14,8 @@ weight: 2
 - [Engine]({{< relref "engine" >}})
 
 ## Resource
-- Mathematics for 3D Game programming and Computer Graphics(3rd)
-- Foundations of Game Engine Development Volume 1 Mathematics
-- Fundamentals of Computer Graphics(5th)
-- Computer Graphics Principles and Practice(3rd)
-- [GAMES101 Introduction to Computer Graphics](https://www.bilibili.com/video/BV1X7411F744)
+- Mathematics for 3D game programming and computer graphics(3rd)
+- Foundations of game engine development volume 1 mathematics
+- Fundamentals of computer graphics(5th)
+- Computer graphics principles and practice(3rd)
+- [GAMES101 introduction to computer graphics](https://www.bilibili.com/video/BV1X7411F744)
