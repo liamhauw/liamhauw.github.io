@@ -4,12 +4,9 @@ weight: 2
 ---
 
 ## Field
-- Gpu
-  - [Architecture]({{< relref "architecture" >}})
-  - [Vulkan]({{< relref "vulkan" >}})
-- Theory
-  - Geometry 
-  - [Rendering]({{< relref "rendering" >}})
-  - Animation
-- Application
-  - Unreal Engine
+- [Gpu]({{< relref "gpu" >}})
+- [Vulkan]({{< relref "vulkan" >}})
+- Geometry 
+- [Rendering]({{< relref "rendering" >}})
+- Animation
+- Unreal Engine

@@ -1,5 +1,5 @@
 ---
-title: Architecture
+title: Gpu
 date: 2024-04-16
 weight: 1
 ---
@@ -19,7 +19,6 @@ for draw in render pass:
             for fragment in primitive:
                 ExecuteFragmentShader(fragment)
 ```
-### Early Z
 
 ### Advantage
 The output of the vertex shader, and other geometry related shaders, can remain on-chip inside the GPU. The output of these shaders can be stored in a FIFO buffer until the next stage in the pipeline is ready to use the data. This means that the GPU uses little external memory bandwidth storing and retrieving intermediate geometry results.
