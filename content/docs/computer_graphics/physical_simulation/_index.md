@@ -1,12 +1,11 @@
 ---
-title: Animation
-date: 2024-04-16
-weight: 3
+title: Physical simulation
+weight: 1
+date: 2024-04-22
 ---
 
 ## Resource
-### Fluid simulation
-#### Common
+### Common
 - An introduction to physics-based animation(2018)
 - Discrete geometric mechanics for variational time integrators
 - Fast simulation of mass-spring Systems
@@ -18,7 +17,7 @@ weight: 3
 - [Taichi course01](https://github.com/taichiCourse01/taichiCourse01)
 - [GAMES201 advanced physics engine 2020](https://www.bilibili.com/video/BV1ZK411H7Hc)
 
-#### Eulerian view
+### Eulerian view
 - Visual simulation of smoke
 - A multigrid tutorial(2nd)
 - A parallel multigrid Poisson solver for fluids simulation on large grids
@@ -27,12 +26,9 @@ weight: 3
 - An unconditionally stable MacCormack method
 - FlowFixer using BFECC for fluid simulation
 
-#### Lagrangian view
+### Lagrangian view
 - The classical FEM method and discretization methodology
 - Model reduction
 - Unified particle physics for real-time applications
 - A survey on SPH methods in computer graphics
 - [SPH tutorial](https://interactivecomputergraphics.github.io/SPH-Tutorial/)
-
-### Character animation
-- [GAMES105 fundamentals of character animation](https://www.bilibili.com/video/BV1GG4y1p7fF)

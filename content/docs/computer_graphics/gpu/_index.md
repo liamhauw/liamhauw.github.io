@@ -1,7 +1,7 @@
 ---
 title: GPU
-date: 2024-04-16
-weight: 4
+weight: 5
+date: 2024-04-22
 ---
 
 ## Architecture taxonomy

@@ -1,7 +1,6 @@
 ---
-title: Basics
-date: 2024-04-16
-weight: 1
+title: Data structures design and analysis
+weight: 2
 ---
 
 ## Resource

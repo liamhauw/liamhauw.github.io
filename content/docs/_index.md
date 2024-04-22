@@ -2,27 +2,35 @@
 title: Documentation
 ---
 
-Documentation of computer science.
+## Classification
 
-## Filed
-- Theoretical computer science
-  - Theory of computation
-  - Information and coding theory
-  - [Data structures and algorithms]({{< relref "data_structures_and_algorithms" >}})
-  - Programming language theory and formal methods
-- Computer systems
-  - Computer architecture and organization
-  - Concurrent, parallel and distributed computing
-  - Computer networks
-  - Computer security and cryptography
-  - Databases and data mining
-- Applied computer science
-  - [Computer graphics]({{< relref "computer_graphics" >}})
-  - Image and sound processing
-  - Computational science, finance and engineering
-  - Social computing and human–computer interaction
-  - [Software engineering]({{< relref "software_engineering" >}})
-  - Artificial intelligence
+{{% callout note %}}
+This is based on the ACM computing classification system, which is the de facto standard classification system for the computing field.
+{{% /callout %}}
+
+- Software and its engineering
+  - Software rotations and tools
+    - General programming languages
+      - C++
+- Theroy of computation
+  - Design and analysis of algorithms
+    - Data structures design and analysis
+      - Basic
+- Computing methodologies
+  - Computer graphics
+    - Animation
+      - physical simulation
+      - Motion processing
+    - Rendering
+      - Real-time rendering
+      - Offline rendering
+    - Graphics systems and interfaces
+      - GPU
+      - Vulkan
+      - Direct3D12
+      - OpenGL
+      - Engine
 
 ## Resource
- - [Self-learning guide](https://csdiy.wiki/en/)
+- [ACM computing classification system]()
+- [Self-learning guide](https://csdiy.wiki/en/)

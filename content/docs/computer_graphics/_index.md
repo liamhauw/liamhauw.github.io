@@ -1,17 +1,7 @@
 ---
 title: Computer graphics
-weight: 2
+weight: 3
 ---
-
-## Field
-- [Geometry]({{< relref "geometry" >}})
-- [Rendering]({{< relref "rendering" >}})
-- [Animation]({{< relref "animation" >}})
-- [GPU]({{< relref "gpu" >}})
-- [Vulkan]({{< relref "vulkan" >}})
-- [OpenGL]({{< relref "opengl" >}})
-- [Direct3D12]({{< relref "direct3d12" >}})
-- [Engine]({{< relref "engine" >}})
 
 ## Resource
 - Mathematics for 3D game programming and computer graphics(3rd)

@@ -1,7 +1,7 @@
 ---
-title: Rendering
-date: 2024-04-16
-weight: 2
+title: Real-time rendering
+weight: 3
+date: 2024-04-22
 ---
 
 ## Vector transform in vertex shader
@@ -21,7 +21,6 @@ Given position, normal and tangent vector and model matirx.
 - [Arm GPU best practices developer guide](https://developer.arm.com/documentation/101897/latest/)
 
 ## Resource
-### Real-time rendering
 - Real-time rendering(4th)
 - Foundations of game engine development volume 2 rendering
 - Physics and math of shading
@@ -29,6 +28,3 @@ Given position, normal and tangent vector and model matirx.
 - Real shading in Unreal Engine 4
 - [GAMES202 high-quality real-time rendering](https://www.bilibili.com/video/BV1YK4y1T7yY)
 - [Shadertoy](https://www.shadertoy.com)
-
-### Offline rendering
-- [Pbrt](https://www.pbrt.org)

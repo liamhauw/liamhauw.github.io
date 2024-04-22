@@ -1,7 +1,7 @@
 ---
 title: OpenGL
-date: 2024-04-16
-weight: 6
+weight: 8
+date: 2024-04-22
 ---
 
 ## Resource
