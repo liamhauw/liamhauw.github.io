@@ -6,6 +6,7 @@ authors:
   - admin
 tags:
   - Other
+
+{{< gallery album="hangzhou" >}}
 ---
 
-{{< gallery album="<hangzhou>" >}}
