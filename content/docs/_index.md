@@ -9,7 +9,7 @@ This is based on the ACM computing classification system, which is the de facto 
 {{% /callout %}}
 
 - Software and its engineering
-  - Software rotations and tools
+  - Software notations and tools
     - General programming languages
       - C++
 - Theroy of computation
@@ -20,7 +20,7 @@ This is based on the ACM computing classification system, which is the de facto 
   - Computer graphics
     - Animation
       - physical simulation
-      - Motion processing
+      - Charactor animtaion
     - Rendering
       - Real-time rendering
       - Offline rendering
