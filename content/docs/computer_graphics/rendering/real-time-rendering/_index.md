@@ -26,6 +26,5 @@ Given position, normal and tangent vector and model matirx.
 - Physics and math of shading
 - Moving Frostbite to Pbr
 - Real shading in Unreal Engine 4
-- [GAMES101 introduction to computer graphics](https://www.bilibili.com/video/BV1X7411F744)
-- [GAMES202 high-quality real-time rendering](https://www.bilibili.com/video/BV1YK4y1T7yY)
+- [GAMES202 high-quality real-time rendering](https://games-cn.org/games202/)
 - [Shadertoy](https://www.shadertoy.com)

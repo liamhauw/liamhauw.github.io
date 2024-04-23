@@ -8,5 +8,6 @@ weight: 3
 - Foundations of game engine development volume 1 mathematics
 - Fundamentals of computer graphics(5th)
 - Computer graphics principles and practice(3rd)
-- [GAMES101 introduction to computer graphics](https://www.bilibili.com/video/BV1X7411F744)
 - [Siggraph](https://dl.acm.org/conference/siggraph)
+- [GAMES: Graphics And Mixed Environment Symposium](https://games-cn.org/)
+- [GAMES101 introduction to computer graphics](https://games-cn.org/games001/)

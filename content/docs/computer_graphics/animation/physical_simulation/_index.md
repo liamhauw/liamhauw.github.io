@@ -14,8 +14,8 @@ date: 2024-04-22
 - Fluid engine development
 - A physically based pipeline for real-time simulation and rendering of realistic fire and smoke
 - The art of fluid animation
-- [Taichi course01](https://github.com/taichiCourse01/taichiCourse01)
-- [GAMES201 advanced physics engine 2020](https://www.bilibili.com/video/BV1ZK411H7Hc)
+- [Taichi course](https://github.com/taichiCourse01/taichiCourse01)
+- [GAMES201 advanced physics engine 2020](https://games-cn.org/games201/)
 
 ### Eulerian view
 - Visual simulation of smoke
