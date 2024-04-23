@@ -1,6 +1,6 @@
 ---
 title: Offline rendering
-weight: 4
+weight: 2
 date: 2024-04-22
 ---
 

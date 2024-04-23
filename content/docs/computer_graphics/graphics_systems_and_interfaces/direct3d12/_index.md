@@ -1,6 +1,6 @@
 ---
 title: Direct3D12
-weight: 7
+weight: 3
 date: 2024-04-22
 ---
 

@@ -32,5 +32,5 @@ This is based on the ACM computing classification system, which is the de facto 
       - Engine
 
 ## Resource
-- [ACM computing classification system]()
+- [ACM computing classification system](https://dl.acm.org/ccs)
 - [Self-learning guide](https://csdiy.wiki/en/)

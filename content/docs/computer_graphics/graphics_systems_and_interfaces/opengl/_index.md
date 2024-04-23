@@ -1,6 +1,6 @@
 ---
 title: OpenGL
-weight: 8
+weight: 4
 date: 2024-04-22
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: GPU
-weight: 5
+weight: 1
 date: 2024-04-22
 ---
 

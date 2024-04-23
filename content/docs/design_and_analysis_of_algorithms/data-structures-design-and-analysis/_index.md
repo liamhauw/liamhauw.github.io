@@ -1,6 +1,6 @@
 ---
 title: Data structures design and analysis
-weight: 2
+weight: 1
 ---
 
 ## Resource
