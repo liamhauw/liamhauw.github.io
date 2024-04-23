@@ -181,5 +181,5 @@ Registry Editor stores the vulkan explicit and implicit layers in the Computer\H
 - [Vulkan loader](https://github.com/KhronosGroup/Vulkan-Loader)
 
 ## Resource
-- [Vulkan offical website](https://www.vulkan.org)
+- [Vulkan official website](https://www.vulkan.org)
 - [Vulkan tutorial](https://vulkan-tutorial.com)
