@@ -1,6 +1,6 @@
 ---
 title: Traverl to HangZhou
-summary: Jay chou, west lake and Lingyin Temple.
+summary: Jay Chou, West Lake and Lingyin Temple.
 date: 2024-04-14
 authors:
   - admin
