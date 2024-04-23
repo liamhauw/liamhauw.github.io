@@ -9,3 +9,4 @@ weight: 3
 - Fundamentals of computer graphics(5th)
 - Computer graphics principles and practice(3rd)
 - [GAMES101 introduction to computer graphics](https://www.bilibili.com/video/BV1X7411F744)
+- [Siggraph](https://dl.acm.org/conference/siggraph)
