@@ -5,6 +5,6 @@ date: 2024-04-22
 ---
 
 ## Resource
+- [LeetCode](https://leetcode-cn.com)
 - [Programmercarl](https://programmercarl.com)
 - [Labuladong](https://labuladong.online/algo/)
-- [LeetCode](https://leetcode-cn.com)
