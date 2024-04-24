@@ -1,4 +1,4 @@
 ---
 title: Animation
-weight: 1
+weight: 3
 ---
