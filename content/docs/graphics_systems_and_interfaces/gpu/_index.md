@@ -80,7 +80,7 @@ Early Z in IMR is not same as deferred rendering here. Early Z requires that opa
 ### Advantage
 This approach is designed to minimize the amount of external memory accesses the GPU needs during fragment shading. Since the GPU only needs to work on a subset of the complete scene data at any given time, this data (such as colour and depth buffers) is small enough to be stored in internal GPU memory. GPUs only have to write the color data for a tile back to memory once rendering is complete, significantly reducing the required number of accesses to system level memory. This results in lower bandwidth consumption.
 
-Texture cache performance can be improved (textures covering multiple primitives may be accessed more coherently one tile at a time than one primitive at a time.
+Texture cache performance can be improved textures covering multiple primitives may be accessed more coherently one tile at a time than one primitive at a time.
 
 Much less on-chip space is needed for good performance compared with a general-purpose frame buffer cache. This means that more space can be dedicated to texture cache, further reducing bandwidth.
 
@@ -96,6 +96,7 @@ There is a cost to traversing the geometry repeatedly.
 - [Qualcomm developer](https://developer.qualcomm.com/)
 - [Snapdragon game toolkit](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/snapdragon-game-toolkit/index.html)
 - [Arm developer](https://developer.arm.com/)
+- [Arm GPU best practices developer guide](https://developer.arm.com/documentation/101897/latest/)
 - [Tile-based rendering](https://developer.arm.com/documentation/102662/0100)
 - [Imagination developer](https://developer.imaginationtech.com/)
 - [PowerVR graphics architectures](https://www.imaginationtech.com/products/gpu/graphics-architecture/)

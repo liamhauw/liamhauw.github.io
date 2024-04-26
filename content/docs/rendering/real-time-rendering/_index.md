@@ -13,10 +13,6 @@ Given position, normal and tangent vector and model matirx.
 ### Reference
 - [Visually lossless content and motion adaptive shading in games](https://leiy.cc/publications/nas/nas-pacmcgit.pdf)
 
-## Best practices
-### Reference
-- [Arm GPU best practices developer guide](https://developer.arm.com/documentation/101897/latest/)
-
 ## Resource
 - [Siggraph](https://dl.acm.org/conference/siggraph)
 - [GAMES](https://games-cn.org/)
@@ -31,4 +27,3 @@ Given position, normal and tangent vector and model matirx.
 - [GAMES101 introduction to computer graphics](https://games-cn.org/games001/)
 - [GAMES202 high-quality real-time rendering](https://games-cn.org/games202/)
 - [Physically based shading in theory and practice](https://blog.selfshadow.com/publications/)
-- [Moving Frostbite to pbr](https://www.ea.com/frostbite/news/moving-frostbite-to-pb)
