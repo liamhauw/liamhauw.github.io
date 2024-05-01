@@ -15,7 +15,7 @@ organizations:
   - name: OPPO
     url: https://www.oppo.com/en/
 
-bio: His research interests include computer graphics and software engineering.
+bio: His research interests include fluid simulation, real-time rendering and game engine.
 
 profiles:
   - icon: brands/github
@@ -38,7 +38,7 @@ education:
     institution: Xidian University
     date_start: '2020-09-01'
     date_end: '2023-07-01'
-    summary : Research physically based rendering and fluid simulation
+    summary : Research fluid simulation and real-time rendering
   - area: Electronic science and technology
     institution: Xidian University
     date_start: '2016-09-01'
@@ -46,6 +46,29 @@ education:
     summary : Mainly study physics
 
 skills:
+  - name: Software and its engineering
+    items:
+      - name: Windows
+        percent: 70
+        icon: devicon/windows11
+      - name: macOS
+        percent: 70
+        icon: devicon/apple
+      - name: Android
+        percent: 70
+        icon: devicon/android
+      - name: Git
+        percent: 70
+        icon: devicon/git
+      - name: CMake
+        percent: 60
+        icon: devicon/cmake
+      - name: Cpp
+        percent: 80
+        icon: devicon/cplusplus
+      - name: VSCode
+        percent: 70
+        icon: devicon/vscode
   - name: Computer graphics
     items:
       - name: Vulkan
@@ -69,29 +92,6 @@ skills:
       - name: pbrt
         percent: 60
         icon: hero/bolt
-  - name: Software engineering
-    items:
-      - name: Windows
-        percent: 70
-        icon: devicon/windows11
-      - name: macOS
-        percent: 70
-        icon: devicon/apple
-      - name: Android
-        percent: 70
-        icon: devicon/android
-      - name: Git
-        percent: 70
-        icon: devicon/git
-      - name: CMake
-        percent: 60
-        icon: devicon/cmake
-      - name: Cpp
-        percent: 80
-        icon: devicon/cplusplus
-      - name: VSCode
-        percent: 70
-        icon: devicon/vscode
 
 awards:
   - title: Complete multiple games
@@ -107,4 +107,4 @@ languages:
 
 ---
 
-Liam Hauw is a multimedia system engineer at OPPO. He is in the graphics and XR group, which optimizes the graphics quality and performance of mobile games. His research interests include computer graphics and software engineering. 
+Liam Hauw is a multimedia system engineer at OPPO. He is in the graphics and XR group, which optimizes the graphics quality and performance of mobile games. His research interests include fluid simulation, real-time rendering and game engine.
