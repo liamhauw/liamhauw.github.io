@@ -1,6 +1,6 @@
 ---
 title: luka
-summary: A rendering framework with modular components, including platform, core, resource, function, editor, and rendering.
+summary: A graphics engine with modular components including platform, core, base, resource, function, editor, and rendering.
 date: 2024-05-09
 authors:
   - admin
