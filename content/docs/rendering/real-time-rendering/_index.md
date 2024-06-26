@@ -1,13 +1,17 @@
 ---
 title: Real-time rendering
 weight: 1
-date: 2024-04-22
+date: 2024-06-26
 ---
 
 ## Vector transform in vertex shader
 Given position, normal and tangent vector and model matirx. 
 - To transform the position vector from model space to world space, we need mutiply the postion by the model matrix.
 - To transform the normal and tangent vector from model space to world space, we need mutiply the postion by the **inverse transpose** of the model matrix.
+
+## Efficient shading
+### Reference
+- [A primer on efficient rendering algorithms and clustered shading](http://www.aortiz.me/2018/12/21/CG.html#tiled-shading--forward)
 
 ## Variable rate shading
 ### Reference
