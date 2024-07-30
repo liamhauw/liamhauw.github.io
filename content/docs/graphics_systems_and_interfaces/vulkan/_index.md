@@ -183,3 +183,4 @@ Registry Editor stores the vulkan explicit and implicit layers in the Computer\H
 ## Resource
 - [Vulkan official website](https://www.vulkan.org)
 - [Vulkan tutorial](https://vulkan-tutorial.com)
+- [Mastering graphics programming with Vulkan](https://www.amazon.com/Mastering-Graphics-Programming-Vulkan-state/dp/1803244798)
