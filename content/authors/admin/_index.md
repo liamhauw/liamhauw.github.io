@@ -9,7 +9,7 @@ status:
 
 superuser: true
 
-role: Multimedia system engineer
+role: Graphics engineer
 
 organizations:
   - name: OPPO
@@ -27,7 +27,7 @@ profiles:
     label: E-mail Me
 
 work:
-  - position: Multimedia system engineer
+  - position: Graphics engineer
     company_name: OPPO
     date_start: '2023-07-15'
     date_end: ''
@@ -107,4 +107,4 @@ languages:
 
 ---
 
-Liam Hauw is a multimedia system engineer at OPPO. He is in the graphics and XR group, which optimizes the graphics quality and performance of mobile games. His research interests include fluid simulation, real-time rendering and game engine.
+Liam Hauw is a graphics engineer at OPPO. His research interests include fluid simulation, real-time rendering and game engine.
