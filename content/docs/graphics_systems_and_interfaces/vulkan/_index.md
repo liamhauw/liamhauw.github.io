@@ -4,6 +4,15 @@ weight: 2
 date: 2024-04-22
 ---
 
+## Loader
+
+### Windows layer
+Registry Editor stores the vulkan explicit and implicit layers in the Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan
+
+### Reference
+- [Vulkan layer factory](https://github.com/LunarG/Vulkan-Layer-Factory)
+- [Vulkan loader](https://github.com/KhronosGroup/Vulkan-Loader)
+
 ## Coordinate system
 
 The vertex is transformed from the model space to the world space, view space and projection space through the model matrix(M), view matrix(V) and projection matrix(P). Then it is converted to the normal device coordinate (NDC) space through perspective division, and finally to the two-dimensional screen space.
@@ -15,6 +24,12 @@ The coordinate system of the NDC space is the right hand coordinate system, with
 The coordinate system of gltf and glm is the right hand coordinate system. However, glm projection make it left, we need invert elements (1, 1) in a projection matrix.
 
 Matrices are column priority storage, and when used in shaders, you need to multiply the matrix left by a vector, such as P * V * M * x, where x is the vector.
+
+## Mesh shading
+
+### Reference
+- [Mesh shading for Vulkan](https://www.khronos.org/blog/mesh-shading-for-vulkan)
+- [Vulkan Subgroup tutorial](https://www.khronos.org/blog/vulkan-subgroup-tutorial)
 
 ## Mutiple threads
 
@@ -170,15 +185,6 @@ The way it works is very clever: it uses an integer counter, which each semaphor
 - [Vulkan guide](https://github.com/KhronosGroup/Vulkan-Guide/blob/main/chapters/synchronization.adoc)
 - [Synchronization examples](https://github.com/KhronosGroup/Vulkan-Docs/wiki/Synchronization-Examples)
 - [Vulkan synchronization explanation](https://zhuanlan.zhihu.com/p/350483554)
-
-## Loader
-
-### Windows layer
-Registry Editor stores the vulkan explicit and implicit layers in the Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan
-
-### Reference
-- [Vulkan layer factory](https://github.com/LunarG/Vulkan-Layer-Factory)
-- [Vulkan loader](https://github.com/KhronosGroup/Vulkan-Loader)
 
 ## Resource
 - [Vulkan official website](https://www.vulkan.org)

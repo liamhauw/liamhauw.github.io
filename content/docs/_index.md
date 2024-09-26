@@ -12,7 +12,7 @@ This is based on the [ACM computing classification system](https://dl.acm.org/cc
     - General programming languages
 - Theroy of computation
   - Design and analysis of algorithms
-    - Data structures design and analysis
+    - Algorithm design techniques
 - Computing methodologies
   - Computer graphics
     - Animation
