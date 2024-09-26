@@ -25,11 +25,16 @@ The coordinate system of gltf and glm is the right hand coordinate system. Howev
 
 Matrices are column priority storage, and when used in shaders, you need to multiply the matrix left by a vector, such as P * V * M * x, where x is the vector.
 
+## Subgroup
+
+### Reference
+- [Vulkan Subgroup tutorial](https://www.khronos.org/blog/vulkan-subgroup-tutorial)
+- [Vulkan Subgroup explained](chrome-extension://kppkpfjckhillkjfhpekeoeobieedbpd/lib/pdfjs/web/viewer.html?file=https%3A%2F%2Fwww.khronos.org%2Fassets%2Fuploads%2Fdevelopers%2Flibrary%2F2018-vulkan-devday%2F06-subgroups.pdf)
+
 ## Mesh shading
 
 ### Reference
 - [Mesh shading for Vulkan](https://www.khronos.org/blog/mesh-shading-for-vulkan)
-- [Vulkan Subgroup tutorial](https://www.khronos.org/blog/vulkan-subgroup-tutorial)
 
 ## Mutiple threads
 
