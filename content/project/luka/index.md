@@ -9,4 +9,4 @@ tags:
   - Game engine
 ---
 
-This project is open source and available at [Github](https://github.com/liamhauw/luka) 
+This project will be open source later.

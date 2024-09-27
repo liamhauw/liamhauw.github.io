@@ -34,6 +34,7 @@ Matrices are column priority storage, and when used in shaders, you need to mult
 ## Mesh shading
 
 ### Reference
+- [Niagara renderer](https://github.com/zeux/niagara)
 - [Mesh shading for Vulkan](https://www.khronos.org/blog/mesh-shading-for-vulkan)
 
 ## Mutiple threads
