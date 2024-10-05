@@ -20,6 +20,8 @@ bio: His research interests include fluid simulation, real-time rendering and ga
 profiles:
   - icon: brands/github
     url: https://github.com/liamhauw
+  - icon: brands/x
+    url: https://x.com/liamhauw
   - icon: brands/discord
     url: https://discord.gg/8wCasdfJ
   - icon: at-symbol
