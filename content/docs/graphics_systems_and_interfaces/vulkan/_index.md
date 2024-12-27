@@ -15,15 +15,11 @@ Registry Editor stores the vulkan explicit and implicit layers in the Computer\H
 
 ## Coordinate system
 
-The vertex is transformed from the model space to the world space, view space and projection space through the model matrix(M), view matrix(V) and projection matrix(P). Then it is converted to the normal device coordinate (NDC) space through perspective division, and finally to the two-dimensional screen space.
+The vertex is transformed from the model space to the world space, view space and projection space through the model matrix(M), view matrix(V) and projection matrix(P). Then it is converted to the normal device coordinate (NDC) space through perspective division, and finally to the two-dimensional screen space. World space and view space have nothing to do with hardware.
 
-World space and view space have nothing to do with hardware.
+The coordinate system of the NDC space is the right hand coordinate system, with the x axis to the right [-1, 1], the y axis down [-1, 1], and the z axis in the screen [0, 1]. The x axis of the screen space is to the right and the y axis is down.
 
-The coordinate system of the NDC space is the right hand coordinate system, with the x axis to the right, the y axis down, and the z axis in the screen. The x axis of the screen space is to the right and the y axis is down.
-
-The coordinate system of gltf and glm is the right hand coordinate system. However, glm projection make it left, we need invert elements (1, 1) in a projection matrix.
-
-Matrices are column priority storage, and when used in shaders, you need to multiply the matrix left by a vector, such as P * V * M * x, where x is the vector.
+The coordinate system of gltf and glm is the right hand coordinate system by default. However, glm projection make it left, we need invert elements (1, 1) in a projection matrix. The depth of glm is [-1, 1] by default, we need define GLM_CLIP_CONTROL_ZO_BIT. The matrices of glm are column priority storage, and when used in shaders, you need to multiply the matrix left by a vector, such as P * V * M * x, where x is the vector.
 
 ## Subgroup
 
