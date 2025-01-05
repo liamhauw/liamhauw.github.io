@@ -14,6 +14,7 @@ This is based on the [ACM computing classification system](https://dl.acm.org/cc
   - Design and analysis of algorithms
     - Algorithm design techniques
 - Computing methodologies
+  - Artificial intelligence
   - Computer graphics
     - Animation
     - Rendering
