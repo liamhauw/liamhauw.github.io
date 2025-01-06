@@ -4,10 +4,19 @@ weight: 2
 date: 2024-04-22
 ---
 
-## Loader
+## Layer
 
 ### Windows layer
 Registry Editor stores the vulkan explicit and implicit layers in the Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan
+
+### Android layer
+```shell
+adb shell settings put global enable_gpu_debug_layers 1
+adb shell settings put global gpu_debug_layers [layer name ep.VK_LAYER_KHRONOS_validation]
+adb shell settings put global gpu_debug_app [apk name]
+adb push [layer so eg.libVkLayer_khronos_validation.so] /data/data/[apk name]
+adb shell "settings list global | grep gpu"
+```
 
 ### Reference
 - [Vulkan layer factory](https://github.com/LunarG/Vulkan-Layer-Factory)
