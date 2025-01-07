@@ -1,7 +1,7 @@
 ---
 title: Vulkan
 weight: 2
-date: 2024-04-22
+date: 2025-01-07
 ---
 
 ## Layer
@@ -30,17 +30,9 @@ The coordinate system of the NDC space is the right hand coordinate system, with
 
 The coordinate system of gltf and glm is the right hand coordinate system by default. However, glm projection make it left, we need invert elements (1, 1) in a projection matrix. The depth of glm is [-1, 1] by default, we need define GLM_CLIP_CONTROL_ZO_BIT. The matrices of glm are column priority storage, and when used in shaders, you need to multiply the matrix left by a vector, such as P * V * M * x, where x is the vector.
 
-## Subgroup
-
-### Reference
-- [Vulkan Subgroup tutorial](https://www.khronos.org/blog/vulkan-subgroup-tutorial)
-- [Vulkan Subgroup explained](chrome-extension://kppkpfjckhillkjfhpekeoeobieedbpd/lib/pdfjs/web/viewer.html?file=https%3A%2F%2Fwww.khronos.org%2Fassets%2Fuploads%2Fdevelopers%2Flibrary%2F2018-vulkan-devday%2F06-subgroups.pdf)
-
-## Mesh shading
-
-### Reference
-- [Niagara renderer](https://github.com/zeux/niagara)
-- [Mesh shading for Vulkan](https://www.khronos.org/blog/mesh-shading-for-vulkan)
+Given position, normal and tangent vector and model matirx.
+- To transform the position vector from model space to world space, we need mutiply the postion by the model matrix.
+- To transform the normal and tangent vector from model space to world space, we need mutiply the postion by the **inverse transpose** of the model matrix.
 
 ## Mutiple threads
 

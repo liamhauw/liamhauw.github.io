@@ -1,23 +1,27 @@
 ---
 title: Game engine
-date: 2024-12-02
+date: 2025-01-07
 weight: 5
 ---
 
-## FSR1
-- [FSR1 techniques doc](https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/blob/main/docs/techniques/super-resolution-spatial.md)
-- [FSR1 Algorithm](https://advances.realtimerendering.com/s2021/Unity%20AMD%20FSR%20-%20SIGGRAPH%202021.pdf)
-- [Lanczos interpolation and resampling](https://www.youtube.com/watch?v=ijmd6XyG2HA)
+# Super resolution & frame interpolation
+### Reference
+- [AMD FidelityFX-SDK](https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK)
 
-## FSR2
-- [FSR2 techniques doc](https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/blob/main/docs/techniques/super-resolution-temporal.md)
+## GPU-driven rendering
+### Reference
+- [Vulkan Subgroup tutorial](https://www.khronos.org/blog/vulkan-subgroup-tutorial)
+- [Vulkan Subgroup explained](chrome-extension://kppkpfjckhillkjfhpekeoeobieedbpd/lib/pdfjs/web/viewer.html?file=https%3A%2F%2Fwww.khronos.org%2Fassets%2Fuploads%2Fdevelopers%2Flibrary%2F2018-vulkan-devday%2F06-subgroups.pdf)
+- [Niagara renderer](https://github.com/zeux/niagara)
+- [Mesh shading for Vulkan](https://www.khronos.org/blog/mesh-shading-for-vulkan)
 
-## FSR3
-### SR3
+## Clustered shading
+### Reference
+- [A primer on efficient rendering algorithms and clustered shading](http://www.aortiz.me/2018/12/21/CG.html#tiled-shading--forward)
 
-### Frame interpolation
-
-### Optical flow
+## Variable rate shading
+### Reference
+- [Visually lossless content and motion adaptive shading in games](https://leiy.cc/publications/nas/nas-pacmcgit.pdf)
 
 ## Resource
 - [Game engine architecture](https://www.amazon.com/Engine-Architecture-Third-Jason-Gregory/dp/1138035459)
