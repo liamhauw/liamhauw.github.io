@@ -4,7 +4,7 @@ date: 2025-01-07
 weight: 5
 ---
 
-# Super resolution & frame interpolation
+## Super resolution & frame interpolation
 ### Reference
 - [AMD FidelityFX-SDK](https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK)
 
