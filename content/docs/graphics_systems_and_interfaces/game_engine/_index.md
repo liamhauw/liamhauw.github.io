@@ -1,12 +1,8 @@
 ---
 title: Game engine
-date: 2025-01-07
+date: 2025-01-14
 weight: 5
 ---
-
-## Super resolution & frame interpolation
-### Reference
-- [AMD FidelityFX-SDK](https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK)
 
 ## GPU-driven rendering
 ### Reference
@@ -22,6 +18,29 @@ weight: 5
 ## Variable rate shading
 ### Reference
 - [Visually lossless content and motion adaptive shading in games](https://leiy.cc/publications/nas/nas-pacmcgit.pdf)
+
+## Multi-sample antialiasing (MSAA)
+### Reference
+- [Experimenting with reconstruction filters for MSAA resolve](https://therealmjp.github.io/posts/msaa-resolve-filters/)
+
+## Morphological antialiasing (MLAA)
+### Reference
+- [MLAA from 2009 to 2017](http://www.iryoku.com/research-impact-retrospective-mlaa-from-2009-to-2017)
+- [MLAA paper](https://www.intel.com/content/dam/develop/external/us/en/documents/z-shape-arm-785403.pdf)
+- [Enhanced Subpixel Morphological Antialiasing](https://www.iryoku.com/smaa/)
+- [MSAA](https://therealmjp.github.io/posts/msaa-resolve-filters/)
+
+## Temporal antialiasing (TAA)
+### Reference
+- [Temporal reprojection antialiasing in INSIDE](http://s3.amazonaws.com/arena-attachments/655504/c5c71c5507f0f8bf344252958254fb7d.pdf?1468341463)
+- [High quality temporal supersampling](https://de45xmedrsdbp.cloudfront.net/Resources/files/TemporalAA_small-59732822.pdf)
+- [An excursion in temporal supersampling](https://developer.download.nvidia.com/gameworks/events/GDC2016/msalvi_temporal_supersampling.pdf)
+- [Temporal AA and the quest for the Holy Trail](https://www.elopezr.com/temporal-aa-and-the-quest-for-the-holy-trail/)
+- [Temporal antialiasing starter pack](https://alextardif.com/TAA.html)
+
+## Super resolution & frame interpolation
+### Reference
+- [AMD FidelityFX-SDK](https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK)
 
 ## Resource
 - [Game engine architecture](https://www.amazon.com/Engine-Architecture-Third-Jason-Gregory/dp/1138035459)
