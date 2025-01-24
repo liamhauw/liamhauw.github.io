@@ -4,8 +4,8 @@ type: landing
 sections:
   - block: hero
     content:
-      title: Hey, I'm Liam Hauw 👋
-      text: Welcome to my personal website
+      title: Liam Hauw
+      text: Graphics engineer
     design:
       background:
         image:

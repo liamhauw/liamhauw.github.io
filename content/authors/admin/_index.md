@@ -96,7 +96,7 @@ skills:
         icon: hero/bolt
 
 awards:
-  - title: Complete multiple games
+  - title: Awesome gamer
     awarder: Steam
     summary: This award recognizes outstanding gaming abilities.
     certificate_url: https://store.steampowered.com/
