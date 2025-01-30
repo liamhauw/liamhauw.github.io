@@ -5,10 +5,10 @@ date: 2025-01-20
 ---
 
 ## Shading basics
-### Antialiasing
-- Fast approximate antialiasing(FXAA)
-- Morphological antialiasing (MLAA)
-- Temporal antialiasing (TAA)
+- Aliasing and antialiasing
+  - Fast approximate antialiasing(FXAA)
+  - Morphological antialiasing (MLAA)
+  - Temporal antialiasing (TAA)
 ### Reference
 - [Experimenting with reconstruction filters for MSAA resolve](https://therealmjp.github.io/posts/msaa-resolve-filters/)
 - [FXAA shadertoy](https://www.shadertoy.com/view/ls3GWS)
@@ -23,6 +23,8 @@ date: 2025-01-20
 - [Temporal antialiasing starter pack](https://alextardif.com/TAA.html)
 
 ## Shadows
+- Shadow maps
+- Percentage closer soft shadows
 
 ## Physically based shading
 
@@ -30,16 +32,16 @@ date: 2025-01-20
 
 ## Efficient shading
 - Deferred shading
-- Mesh shading
 - Clustered shading
 - Variable rate shading
+- Mesh shading
 ### Reference
+- [A primer on efficient rendering algorithms and clustered shading](http://www.aortiz.me/2018/12/21/CG.html)
+- [Visually lossless content and motion adaptive shading in games](https://leiy.cc/publications/nas/nas-pacmcgit.pdf)
 - [Niagara renderer](https://github.com/zeux/niagara)
 - [Mesh shading for Vulkan](https://www.khronos.org/blog/mesh-shading-for-vulkan)
 - [Vulkan Subgroup tutorial](https://www.khronos.org/blog/vulkan-subgroup-tutorial)
 - [Vulkan Subgroup explained](chrome-extension://kppkpfjckhillkjfhpekeoeobieedbpd/lib/pdfjs/web/viewer.html?file=https%3A%2F%2Fwww.khronos.org%2Fassets%2Fuploads%2Fdevelopers%2Flibrary%2F2018-vulkan-devday%2F06-subgroups.pdf)
-- [A primer on efficient rendering algorithms and clustered shading](http://www.aortiz.me/2018/12/21/CG.html#tiled-shading--forward)
-- [Visually lossless content and motion adaptive shading in games](https://leiy.cc/publications/nas/nas-pacmcgit.pdf)
 
 ## Super resolution & frame interpolation
 ### Reference
