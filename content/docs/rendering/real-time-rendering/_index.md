@@ -5,10 +5,7 @@ date: 2025-01-20
 ---
 
 ## Shading basics
-- Aliasing and antialiasing
-  - Fast approximate antialiasing(FXAA)
-  - Morphological antialiasing (MLAA)
-  - Temporal antialiasing (TAA)
+
 ### Reference
 - [Experimenting with reconstruction filters for MSAA resolve](https://therealmjp.github.io/posts/msaa-resolve-filters/)
 - [FXAA shadertoy](https://www.shadertoy.com/view/ls3GWS)
@@ -23,18 +20,12 @@ date: 2025-01-20
 - [Temporal antialiasing starter pack](https://alextardif.com/TAA.html)
 
 ## Shadows
-- Shadow maps
-- Percentage closer soft shadows
 
 ## Physically based shading
 
 ## Volumetric and translucency rendering
 
 ## Efficient shading
-- Deferred shading
-- Clustered shading
-- Variable rate shading
-- Mesh shading
 ### Reference
 - [A primer on efficient rendering algorithms and clustered shading](http://www.aortiz.me/2018/12/21/CG.html)
 - [Visually lossless content and motion adaptive shading in games](https://leiy.cc/publications/nas/nas-pacmcgit.pdf)
