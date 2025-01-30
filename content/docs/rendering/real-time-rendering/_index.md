@@ -5,8 +5,11 @@ date: 2025-01-20
 ---
 
 ## Shading basics
-
 ### Reference
+- [Niagara renderer](https://github.com/zeux/niagara)
+- [Mesh shading for Vulkan](https://www.khronos.org/blog/mesh-shading-for-vulkan)
+- [Vulkan Subgroup tutorial](https://www.khronos.org/blog/vulkan-subgroup-tutorial)
+- [Vulkan Subgroup explained](chrome-extension://kppkpfjckhillkjfhpekeoeobieedbpd/lib/pdfjs/web/viewer.html?file=https%3A%2F%2Fwww.khronos.org%2Fassets%2Fuploads%2Fdevelopers%2Flibrary%2F2018-vulkan-devday%2F06-subgroups.pdf)
 - [Experimenting with reconstruction filters for MSAA resolve](https://therealmjp.github.io/posts/msaa-resolve-filters/)
 - [FXAA shadertoy](https://www.shadertoy.com/view/ls3GWS)
 - [MLAA shadertoy](https://www.shadertoy.com/view/43lBD7)
@@ -19,20 +22,10 @@ date: 2025-01-20
 - [Temporal AA and the quest for the Holy Trail](https://www.elopezr.com/temporal-aa-and-the-quest-for-the-holy-trail/)
 - [Temporal antialiasing starter pack](https://alextardif.com/TAA.html)
 
-## Shadows
-
-## Physically based shading
-
-## Volumetric and translucency rendering
-
 ## Efficient shading
 ### Reference
 - [A primer on efficient rendering algorithms and clustered shading](http://www.aortiz.me/2018/12/21/CG.html)
 - [Visually lossless content and motion adaptive shading in games](https://leiy.cc/publications/nas/nas-pacmcgit.pdf)
-- [Niagara renderer](https://github.com/zeux/niagara)
-- [Mesh shading for Vulkan](https://www.khronos.org/blog/mesh-shading-for-vulkan)
-- [Vulkan Subgroup tutorial](https://www.khronos.org/blog/vulkan-subgroup-tutorial)
-- [Vulkan Subgroup explained](chrome-extension://kppkpfjckhillkjfhpekeoeobieedbpd/lib/pdfjs/web/viewer.html?file=https%3A%2F%2Fwww.khronos.org%2Fassets%2Fuploads%2Fdevelopers%2Flibrary%2F2018-vulkan-devday%2F06-subgroups.pdf)
 
 ## Super resolution & frame interpolation
 ### Reference
