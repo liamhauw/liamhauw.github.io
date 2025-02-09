@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  mode: light
-  color: blue
+  mode: dark
+  color: indigo
 
 # SEO
 marketing:
@@ -14,8 +14,8 @@ marketing:
     site_type: Project
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo documentation theme powered by Hugo Blox website builder.'
-    twitter: 'GetResearchDev'
+    description: 'Liam Hauw personl website.'
+    twitter: 'Liam Hauw'
   analytics:
     google_analytics: ''
     google_tag_manager: ''
@@ -23,9 +23,9 @@ marketing:
     baidu_tongji: ''
     plausible: ''
     fathom: ''
-    pirsch: ''
+    pirsch: 'sVH8ZixkFx5eeeLTUTEuChwFdELkrA7n'
   verification:
-    google: ''
+    google: 'm_xZfpIqhYgFZi8s-b-XAO3E38oQG2H8NpoR_KPBxtM'
     baidu: ''
 
 # Site header
@@ -39,17 +39,13 @@ header:
       text: ""
       # Logo filename in `assets/media/` folder
       filename: "logo.svg"
-    button:
-      enable: true
-      text: "Get Started"
-      url: "https://hugoblox.com/templates/details/docs/"
     show_search: true
     show_theme_chooser: true
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} My Company. This work is licensed under {license}'
+    notice: '© {year} Liam Hauw'
     license:
       enable: true
       allow_derivatives: false
@@ -68,13 +64,13 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/HugoBlox/hugo-blox-builder/'
+    url: 'https://github.com/liamhauw/liamhauw.github.io/'
     content_dir: 'starters/documentation/content'
     branch: 'main'
   feedback:
     responses:
-      positive: 'Glad to hear it! [Any ideas for improvements?](https://github.com/<USERNAME>/<REPO>/issues/new).'
-      negative: 'Sorry to hear that. [Please tell us how we can improve](https://github.com/<USERNAME>/<REPO>/issues/new).'
+      positive: 'Glad to hear it! [Any ideas for improvements?](https://github.com/liamhauw/liamhauw.github.io/issues/new).'
+      negative: 'Sorry to hear that. [Please tell us how we can improve](https://github.com/liamhauw/liamhauw.github.io/issues/new).'
   comment:
     provider: ''
     giscus:

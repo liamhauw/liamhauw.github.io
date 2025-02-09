@@ -1,59 +1,112 @@
 ---
-# Display name
-title: 吳健雄
+title: Liam Hauw
 
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+first_name: Liam
+last_name: Hauw
 
-# Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
-# Status emoji
 status:
-  icon: ☕️
+  icon: 🍉
 
-# Is this the primary user of the site?
 superuser: true
 
-# Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Graphics engineer
 
-# Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: OPPO
+    url: https://www.oppo.com/en/
 
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: His research interests include fluid simulation, real-time rendering and game engine.
 
-# Social Networking
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/liamhauw
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
-  - icon: academicons/cv
-    url: uploads/resume.pdf
-    label: Download my resume
-  - icon: rss
-    url: ./post/index.xml
-    label: Subscribe to my blog via RSS feed
+    url: https://x.com/liamhauw
+  - icon: brands/discord
+    url: https://discord.gg/8wCasdfJ
+  - icon: at-symbol
+    url: 'mailto:liamhauw@gmail.com'
+    label: E-mail Me
 
-# Highlight the author in author lists? (true/false)
-highlight_name: true
+work:
+  - position: Graphics engineer
+    company_name: OPPO
+    date_start: '2023-07-15'
+    date_end: ''
+    summary : Optimizes the graphics quality and performance of mobile games
 
-# Author's website URL
-website: ""
+education:
+  - area: Optical engineering
+    institution: Xidian University
+    date_start: '2020-09-01'
+    date_end: '2023-07-01'
+    summary : Research fluid simulation and real-time rendering
+  - area: Electronic science and technology
+    institution: Xidian University
+    date_start: '2016-09-01'
+    date_end: '2020-07-01'
+    summary : Mainly study physics
+
+skills:
+  - name: Software and its engineering
+    items:
+      - name: Windows
+        percent: 70
+        icon: devicon/windows11
+      - name: macOS
+        percent: 70
+        icon: devicon/apple
+      - name: Android
+        percent: 70
+        icon: devicon/android
+      - name: Git
+        percent: 70
+        icon: devicon/git
+      - name: CMake
+        percent: 60
+        icon: devicon/cmake
+      - name: Cpp
+        percent: 80
+        icon: devicon/cplusplus
+      - name: VSCode
+        percent: 70
+        icon: devicon/vscode
+  - name: Computer graphics
+    items:
+      - name: Vulkan
+        percent: 80
+        icon: custom/vulkan
+      - name: Direct3D12
+        percent: 70
+        icon: devicon/windows11
+      - name: OpenGL
+        percent: 70
+        icon: devicon/opengl
+      - name: Unreal Engine
+        percent: 30
+        icon: devicon/unrealengine
+      - name: Unity
+        percent: 20
+        icon: devicon/unity
+      - name: Cesium
+        percent: 50
+        icon: custom/cesium
+      - name: pbrt
+        percent: 60
+        icon: hero/bolt
+
+awards:
+  - title: Awesome gamer
+    awarder: Steam
+    summary: This award recognizes outstanding gaming abilities.
+    certificate_url: https://store.steampowered.com/
+
+languages:
+  - name: Chinese
+    percent: 100
+  - name: English
+    percent: 70
+
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include
-distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops
-self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Liam Hauw is a graphics engineer at OPPO. His research interests include fluid simulation, real-time rendering and game engine.
