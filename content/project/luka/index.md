@@ -1,7 +1,7 @@
 ---
 title: luka
-summary: luka is a a Vulkan API-based real-time rendering engine with modular components including platform, core, base, resource, function, editor, and rendering.
-date: 2025-01-25
+summary: A Vulkan API-based real-time rendering engine with modular components including platform, core, base, resource, function, rendering and editor.
+date: 2025-02-10
 authors:
   - admin
 tags:
@@ -13,7 +13,7 @@ tags:
 - Following the RAII principle
 - Task-based multi-threading using enkiTS
 - Supporting glTF scenes
-- Configurability of multiple types of punctual lights
+- Configurability of directional and punctual lights
 - User-defined shaders
 - Driving rendering with frame graph
 - Asynchronously loading asset
