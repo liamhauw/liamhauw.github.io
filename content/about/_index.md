@@ -14,12 +14,5 @@ sections:
     content:
       title: Skill
       username: admin
-  - block: resume-awards
-    content:
-      title: Award
-      username: admin
-  - block: resume-languages
-    content:
-      title: Language
-      username: admin
+
 ---

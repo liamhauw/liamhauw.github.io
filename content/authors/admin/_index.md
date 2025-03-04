@@ -48,7 +48,7 @@ education:
     summary : Mainly study physics
 
 skills:
-  - name: Software and its engineering
+  - name: Software
     items:
       - name: Windows
         percent: 70
@@ -94,18 +94,6 @@ skills:
       - name: pbrt
         percent: 60
         icon: hero/bolt
-
-awards:
-  - title: Awesome gamer
-    awarder: Steam
-    summary: This award recognizes outstanding gaming abilities.
-    certificate_url: https://store.steampowered.com/
-
-languages:
-  - name: Chinese
-    percent: 100
-  - name: English
-    percent: 70
 
 ---
 
