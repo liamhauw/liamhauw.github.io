@@ -1,8 +1,12 @@
 ---
 title: Game engine
-date: 2025-01-20
+date: 2025-03-25
 weight: 5
 ---
+
+## Super resolution & frame interpolation
+### Reference
+- [AMD FidelityFX-SDK](https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK)
 
 ## Resource
 - [Game engine architecture](https://www.amazon.com/Engine-Architecture-Third-Jason-Gregory/dp/1138035459)
