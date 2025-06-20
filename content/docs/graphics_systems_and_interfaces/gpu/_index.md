@@ -109,4 +109,4 @@ There is a cost to traversing the geometry repeatedly.
 ## Graphics optimaize
 
 ### Reference
-- [Qualcomm 移动端游戏开发指南要点](https://zhuanlan.zhihu.com/p/1911434325402026577)
+- [Qualcomm mobile game development guide](https://zhuanlan.zhihu.com/p/1911434325402026577)
