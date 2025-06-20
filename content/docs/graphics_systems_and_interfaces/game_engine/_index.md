@@ -4,6 +4,9 @@ date: 2025-03-25
 weight: 5
 ---
 
+## Nanite
+- [A deep dive](https://advances.realtimerendering.com/s2021/Karis_Nanite_SIGGRAPH_Advances_2021_final.pdf)
+
 ## Super resolution & frame interpolation
 ### Reference
 - [AMD FidelityFX-SDK](https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK)
