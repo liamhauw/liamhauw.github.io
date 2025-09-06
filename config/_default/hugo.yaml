@@ -34,7 +34,7 @@ cascade:
     share: false
     profile: true
     commentable: false
-    editable: true
+    editable: false
     pager: true
     show_related: true
     show_breadcrumb: false
@@ -49,7 +49,7 @@ cascade:
     share: false
     profile: true
     commentable: false
-    editable: true
+    editable: false
     pager: true
     show_related: true
     show_breadcrumb: false
