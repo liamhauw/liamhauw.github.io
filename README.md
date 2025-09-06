@@ -1,1 +1,1 @@
-My website source code
+Blog, docs and me
