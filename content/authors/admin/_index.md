@@ -15,7 +15,7 @@ organizations:
   - name: OPPO
     url: https://www.oppo.com/en/
 
-bio: His research interests include fluid simulation, real-time rendering, game engine and machine learning.
+bio: His research interests include fluid simulation, real-time rendering, game engine.
 
 profiles:
   - icon: brands/github
