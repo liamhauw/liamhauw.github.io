@@ -65,7 +65,7 @@ features:
     enable: false
   repository:
     url: 'https://github.com/liamhauw/liamhauw.github.io/'
-    content_dir: 'starters/documentation/content'
+    content_dir: '/content'
     branch: 'main'
   feedback:
     responses:
