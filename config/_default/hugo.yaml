@@ -19,10 +19,9 @@ cascade:
     share: false
     profile: true
     commentable: false
-    editable: true
-    pager: true
+    editable: false
+    pager: false
     show_related: true
-    share: false
     show_breadcrumb: false
     header:
       navbar:
@@ -38,17 +37,25 @@ cascade:
     editable: true
     pager: true
     show_related: true
-    share: false
     show_breadcrumb: false
     header:
       navbar:
         enable: true
   - _target:
       path: /docs/**
-    show_date: false
+    show_date: true
     show_date_updated: true
+    reading_time: true
+    share: false
+    profile: true
+    commentable: false
     editable: true
-    show_breadcrumb: true
+    pager: true
+    show_related: true
+    show_breadcrumb: false
+    header:
+      navbar:
+        enable: true
 
 ############################
 ## LANGUAGE
