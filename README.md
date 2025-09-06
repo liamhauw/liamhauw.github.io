@@ -1,1 +1,1 @@
-Blog, docs and me
+Blog, project, documentation and me
