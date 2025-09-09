@@ -15,6 +15,7 @@ This is based on the [ACM computing classification system](https://dl.acm.org/cc
     - Algorithm design techniques
 - Computing methodologies
   - Artificial intelligence
+  - Machine learning
   - Computer graphics
     - Animation
     - Rendering
