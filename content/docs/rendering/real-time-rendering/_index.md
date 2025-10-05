@@ -1,10 +1,17 @@
 ---
 title: Real-time rendering
 weight: 1
-date: 2025-03-25
+date: 2025-10-05
 ---
 
 ## Shading basics
+### Aliasing and antialiasing
+- MSAA
+- FXAA
+- MLAA
+- SMAA
+- TAA
+
 ### Reference
 - [Experimenting with reconstruction filters for MSAA resolve](https://therealmjp.github.io/posts/msaa-resolve-filters/)
 - [FXAA shadertoy](https://www.shadertoy.com/view/ls3GWS)
@@ -19,7 +26,11 @@ date: 2025-03-25
 - [Temporal antialiasing starter pack](https://alextardif.com/TAA.html)
 
 ## Efficient shading
+### Cluster shading
+Quickly determine ​​which lights affect which small 3D regions​​ of the scene, so each pixel only processes the lights that actually affect it.
+
 ### Reference
+- [Nvidia mega geometray samples](https://github.com/nvpro-samples/build_all?tab=readme-ov-file#mega-geometry)
 - [Niagara renderer](https://github.com/zeux/niagara)
 - [Mesh shading for Vulkan](https://www.khronos.org/blog/mesh-shading-for-vulkan)
 - [Vulkan Subgroup tutorial](https://www.khronos.org/blog/vulkan-subgroup-tutorial)
@@ -27,14 +38,25 @@ date: 2025-03-25
 - [A primer on efficient rendering algorithms and clustered shading](http://www.aortiz.me/2018/12/21/CG.html)
 - [Visually lossless content and motion adaptive shading in games](https://leiy.cc/publications/nas/nas-pacmcgit.pdf)
 
-
-## Neural radiance field
-- [Nerf: Representing scenes as neural radiance fields for view synthesis](https://dl.acm.org/doi/pdf/10.1145/3503250)
-
-## 3D Gaussian splatting
-- [3D Gaussian splatting for real-time radiance field rendering](https://dl.acm.org/doi/pdf/10.1145/3592433)
+## Global illumination
+### Path tracing
+Path tracing is a more advanced, physically accurate form of ray tracing that uses randomness to solve the entire problem of light simulation.​​
+### Reference
+- [Nvidia ray/path tracing samples](https://github.com/nvpro-samples/build_all?tab=readme-ov-file#vulkan-ray-tracing-and-path-tracing-samples)
 
 ## Neural rendering
+### Neural radiance field and 3D gaussian splatting
+​Neural Radiance Fields(NeRF) is a technique that uses a small neural network to represent a 3D scene as a continuous volumetric function.
+
+3D gaussian splatting is a method for representing and rendering 3D scenes using millions of anisotropic 3D Gaussian primitives. Think of it as a sophisticated, intelligent point cloud where each point is an ellipsoid that can be efficiently rendered to create photorealistic novel views.
+
+### Nerual shading
+Neural Shading​​ refers to techniques that use neural networks to replace, augment, or enhance traditional shading calculations in computer graphics. Instead of using hand-crafted analytical models (like Phong, Blinn-Phong, or PBR), neural networks learn the relationship between surface properties, lighting, and material appearance directly from data.
+
+### Reference
+- [Nerf: Representing scenes as neural radiance fields for view synthesis](https://dl.acm.org/doi/pdf/10.1145/3503250)
+- [3D Gaussian splatting for real-time radiance field rendering](https://dl.acm.org/doi/pdf/10.1145/3592433)
+- [Nvidia 3DGS sample](https://github.com/nvpro-samples/vk_gaussian_splatting)
 - [Nvidia RTX kit](https://developer.nvidia.com/rtx-kit/?sortBy=developer_learning_library%2Fsort%2Ftitle%3Aasc&hitsPerPage=15)
 - [An introduction to neural shading](https://dl.acm.org/doi/pdf/10.1145/3721241.3733999)
 - [RenderFormer](https://microsoft.github.io/renderformer/)

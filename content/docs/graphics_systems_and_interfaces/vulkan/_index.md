@@ -1,7 +1,7 @@
 ---
 title: Vulkan
 weight: 2
-date: 2025-01-07
+date: 2025-10-05
 ---
 
 ## Layer
@@ -193,3 +193,4 @@ The way it works is very clever: it uses an integer counter, which each semaphor
 - [Vulkan official website](https://www.vulkan.org)
 - [Vulkan tutorial](https://vulkan-tutorial.com)
 - [Mastering graphics programming with Vulkan](https://www.amazon.com/Mastering-Graphics-Programming-Vulkan-state/dp/1803244798)
+- [Nvidia Vulkan samples](https://github.com/nvpro-samples/build_all)
