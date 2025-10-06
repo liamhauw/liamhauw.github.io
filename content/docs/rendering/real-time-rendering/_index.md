@@ -30,13 +30,12 @@ date: 2025-10-05
 Quickly determine ​​which lights affect which small 3D regions​​ of the scene, so each pixel only processes the lights that actually affect it.
 
 ### Reference
-- [Nvidia mega geometray samples](https://github.com/nvpro-samples/build_all?tab=readme-ov-file#mega-geometry)
-- [Niagara renderer](https://github.com/zeux/niagara)
 - [Mesh shading for Vulkan](https://www.khronos.org/blog/mesh-shading-for-vulkan)
 - [Vulkan Subgroup tutorial](https://www.khronos.org/blog/vulkan-subgroup-tutorial)
 - [Vulkan Subgroup explained](chrome-extension://kppkpfjckhillkjfhpekeoeobieedbpd/lib/pdfjs/web/viewer.html?file=https%3A%2F%2Fwww.khronos.org%2Fassets%2Fuploads%2Fdevelopers%2Flibrary%2F2018-vulkan-devday%2F06-subgroups.pdf)
 - [A primer on efficient rendering algorithms and clustered shading](http://www.aortiz.me/2018/12/21/CG.html)
-- [Visually lossless content and motion adaptive shading in games](https://leiy.cc/publications/nas/nas-pacmcgit.pdf)
+- [Nvidia mega geometray samples](https://github.com/nvpro-samples/build_all?tab=readme-ov-file#mega-geometry)
+- [Niagara renderer](https://github.com/zeux/niagara)
 
 ## Global illumination
 ### Path tracing
@@ -57,7 +56,6 @@ Neural Shading​​ refers to techniques that use neural networks to replace, a
 - [Nerf: Representing scenes as neural radiance fields for view synthesis](https://dl.acm.org/doi/pdf/10.1145/3503250)
 - [3D Gaussian splatting for real-time radiance field rendering](https://dl.acm.org/doi/pdf/10.1145/3592433)
 - [Nvidia 3DGS sample](https://github.com/nvpro-samples/vk_gaussian_splatting)
-- [Nvidia RTX kit](https://developer.nvidia.com/rtx-kit/?sortBy=developer_learning_library%2Fsort%2Ftitle%3Aasc&hitsPerPage=15)
 - [An introduction to neural shading](https://dl.acm.org/doi/pdf/10.1145/3721241.3733999)
 - [RenderFormer](https://microsoft.github.io/renderformer/)
 
@@ -75,3 +73,4 @@ Neural Shading​​ refers to techniques that use neural networks to replace, a
 - [GAMES101 introduction to computer graphics](https://games-cn.org/games001/)
 - [GAMES202 high-quality real-time rendering](https://games-cn.org/games202/)
 - [Physically based shading in theory and practice](https://blog.selfshadow.com/publications/)
+- [Nvidia RTX kit](https://developer.nvidia.com/rtx-kit/?sortBy=developer_learning_library%2Fsort%2Ftitle%3Aasc&hitsPerPage=15)
