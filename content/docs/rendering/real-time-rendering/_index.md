@@ -1,11 +1,14 @@
 ---
 title: Real-time rendering
 weight: 1
-date: 2025-10-05
+date: 2025-10-08
 ---
 
 ## Shading basics
 ### Aliasing and antialiasing
+At its heart, ​​aliasing​​ is a type of artifact or distortion that occurs when a signal is sampled at a rate that is too low to accurately represent it. Antialiasing​​ is a set of techniques used to reduce or eliminate the visual artifacts of aliasing.
+
+Here are some of the most common methods:
 - MSAA
 - FXAA
 - MLAA
@@ -60,17 +63,15 @@ Neural Shading​​ refers to techniques that use neural networks to replace, a
 - [RenderFormer](https://microsoft.github.io/renderformer/)
 
 ## Resource
-- [Siggraph](https://dl.acm.org/conference/siggraph)
-- [GAMES](https://games-cn.org/)
-- [Real-time rendering website](https://www.realtimerendering.com/)
-- [Shadertoy](https://www.shadertoy.com)
 - [Mathematics for 3D game programming and computer graphics(3rd)](https://www.amazon.com/Mathematics-Programming-Computer-Graphics-Third/dp/1435458869)
 - [Foundations of game engine development volume 1 mathematics](https://www.amazon.com/Foundations-Game-Engine-Development-Mathematics/dp/0985811749)
 - [Real-time rendering(4th)](https://www.amazon.com/Real-Time-Rendering-Fourth-Tomas-Akenine-M%C3%B6ller/dp/1138627003)
 - [Fundamentals of computer graphics(5th)](https://www.amazon.com/Fundamentals-Computer-Graphics-Steve-Marschner/dp/0367505037)
 - [Computer graphics principles and practice(3rd)](https://www.amazon.com/Computer-Graphics-Principles-Practice-3rd/dp/0321399528)
 - [Foundations of game engine development volume 2 rendering](https://www.amazon.com/Foundations-Game-Engine-Development-Rendering/dp/0985811757)
-- [GAMES101 introduction to computer graphics](https://games-cn.org/games001/)
-- [GAMES202 high-quality real-time rendering](https://games-cn.org/games202/)
+- [Real-time rendering website](https://www.realtimerendering.com/)
+- [Siggraph](https://dl.acm.org/conference/siggraph)
 - [Physically based shading in theory and practice](https://blog.selfshadow.com/publications/)
+- [GAMES](https://games-cn.org/)
+- [Shadertoy](https://www.shadertoy.com)
 - [Nvidia RTX kit](https://developer.nvidia.com/rtx-kit/?sortBy=developer_learning_library%2Fsort%2Ftitle%3Aasc&hitsPerPage=15)
