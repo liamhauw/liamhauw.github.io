@@ -1,7 +1,7 @@
 ---
 title: Real-time rendering
 weight: 1
-date: 2025-10-08
+date: 2025-10-07
 ---
 
 ## Shading basics
