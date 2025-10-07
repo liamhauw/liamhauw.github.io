@@ -5,33 +5,31 @@ date: 2025-10-07
 ---
 
 ## Shading basics
-### Aliasing and antialiasing
-At its heart, ​​aliasing​​ is a type of artifact or distortion that occurs when a signal is sampled at a rate that is too low to accurately represent it. Antialiasing​​ is a set of techniques used to reduce or eliminate the visual artifacts of aliasing.
-
-Here are some of the most common methods:
-- MSAA
-- FXAA
-- MLAA
-- SMAA
-- TAA
-
 ### Reference
 - [Experimenting with reconstruction filters for MSAA resolve](https://therealmjp.github.io/posts/msaa-resolve-filters/)
 - [FXAA shadertoy](https://www.shadertoy.com/view/ls3GWS)
-- [MLAA shadertoy](https://www.shadertoy.com/view/43lBD7)
-- [MLAA from 2009 to 2017](http://www.iryoku.com/research-impact-retrospective-mlaa-from-2009-to-2017)
-- [MLAA paper](https://www.intel.com/content/dam/develop/external/us/en/documents/z-shape-arm-785403.pdf)
-- [Enhanced Subpixel Morphological Antialiasing](https://www.iryoku.com/smaa/)
 - [Temporal reprojection antialiasing in INSIDE](http://s3.amazonaws.com/arena-attachments/655504/c5c71c5507f0f8bf344252958254fb7d.pdf?1468341463)
 - [High quality temporal supersampling](https://de45xmedrsdbp.cloudfront.net/Resources/files/TemporalAA_small-59732822.pdf)
 - [An excursion in temporal supersampling](https://developer.download.nvidia.com/gameworks/events/GDC2016/msalvi_temporal_supersampling.pdf)
 - [Temporal AA and the quest for the Holy Trail](https://www.elopezr.com/temporal-aa-and-the-quest-for-the-holy-trail/)
 - [Temporal antialiasing starter pack](https://alextardif.com/TAA.html)
+- [MLAA shadertoy](https://www.shadertoy.com/view/43lBD7)
+- [MLAA from 2009 to 2017](http://www.iryoku.com/research-impact-retrospective-mlaa-from-2009-to-2017)
+- [MLAA paper](https://www.intel.com/content/dam/develop/external/us/en/documents/z-shape-arm-785403.pdf)
+- [Enhanced Subpixel Morphological Antialiasing](https://www.iryoku.com/smaa/)
+
+## Shadows
+### Reference
+
+## Physically based shading
+### Reference
+- [Physically based shading in theory and practice](https://blog.selfshadow.com/publications/)
+
+## Volumetic and translucency rendering
+### Reference
+- [Precomputed Atmospheric Scattering]https://ebruneton.github.io/precomputed_atmospheric_scattering/
 
 ## Efficient shading
-### Cluster shading
-Quickly determine ​​which lights affect which small 3D regions​​ of the scene, so each pixel only processes the lights that actually affect it.
-
 ### Reference
 - [Mesh shading for Vulkan](https://www.khronos.org/blog/mesh-shading-for-vulkan)
 - [Vulkan Subgroup tutorial](https://www.khronos.org/blog/vulkan-subgroup-tutorial)
@@ -41,20 +39,10 @@ Quickly determine ​​which lights affect which small 3D regions​​ of the 
 - [Niagara renderer](https://github.com/zeux/niagara)
 
 ## Global illumination
-### Path tracing
-Path tracing is a more advanced, physically accurate form of ray tracing that uses randomness to solve the entire problem of light simulation.​​
 ### Reference
 - [Nvidia ray/path tracing samples](https://github.com/nvpro-samples/build_all?tab=readme-ov-file#vulkan-ray-tracing-and-path-tracing-samples)
 
 ## Neural rendering
-### Neural radiance field and 3D gaussian splatting
-​Neural Radiance Fields(NeRF) is a technique that uses a small neural network to represent a 3D scene as a continuous volumetric function.
-
-3D gaussian splatting is a method for representing and rendering 3D scenes using millions of anisotropic 3D Gaussian primitives. Think of it as a sophisticated, intelligent point cloud where each point is an ellipsoid that can be efficiently rendered to create photorealistic novel views.
-
-### Nerual shading
-Neural Shading​​ refers to techniques that use neural networks to replace, augment, or enhance traditional shading calculations in computer graphics. Instead of using hand-crafted analytical models (like Phong, Blinn-Phong, or PBR), neural networks learn the relationship between surface properties, lighting, and material appearance directly from data.
-
 ### Reference
 - [Nerf: Representing scenes as neural radiance fields for view synthesis](https://dl.acm.org/doi/pdf/10.1145/3503250)
 - [3D Gaussian splatting for real-time radiance field rendering](https://dl.acm.org/doi/pdf/10.1145/3592433)
@@ -71,7 +59,6 @@ Neural Shading​​ refers to techniques that use neural networks to replace, a
 - [Foundations of game engine development volume 2 rendering](https://www.amazon.com/Foundations-Game-Engine-Development-Rendering/dp/0985811757)
 - [Real-time rendering website](https://www.realtimerendering.com/)
 - [Siggraph](https://dl.acm.org/conference/siggraph)
-- [Physically based shading in theory and practice](https://blog.selfshadow.com/publications/)
 - [GAMES](https://games-cn.org/)
 - [Shadertoy](https://www.shadertoy.com)
 - [Nvidia RTX kit](https://developer.nvidia.com/rtx-kit/?sortBy=developer_learning_library%2Fsort%2Ftitle%3Aasc&hitsPerPage=15)
