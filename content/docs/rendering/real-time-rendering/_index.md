@@ -27,7 +27,12 @@ date: 2025-10-07
 
 ## Volumetic and translucency rendering
 ### Reference
-- [Precomputed Atmospheric Scattering]https://ebruneton.github.io/precomputed_atmospheric_scattering/
+- [A C++/DirectX 11 implementation of "A Scalable and Production Ready Sky and Atmosphere Rendering Technique"](https://github.com/AirGuanZ/AtmosphereRenderer?tab=readme-ov-file)
+- [Precomputed Atmospheric Scattering](https://ebruneton.github.io/precomputed_atmospheric_scattering/)
+
+## Global illumination
+### Reference
+- [Nvidia ray/path tracing samples](https://github.com/nvpro-samples/build_all?tab=readme-ov-file#vulkan-ray-tracing-and-path-tracing-samples)
 
 ## Efficient shading
 ### Reference
@@ -38,16 +43,13 @@ date: 2025-10-07
 - [Nvidia mega geometray samples](https://github.com/nvpro-samples/build_all?tab=readme-ov-file#mega-geometry)
 - [Niagara renderer](https://github.com/zeux/niagara)
 
-## Global illumination
-### Reference
-- [Nvidia ray/path tracing samples](https://github.com/nvpro-samples/build_all?tab=readme-ov-file#vulkan-ray-tracing-and-path-tracing-samples)
-
 ## Neural rendering
 ### Reference
 - [Nerf: Representing scenes as neural radiance fields for view synthesis](https://dl.acm.org/doi/pdf/10.1145/3503250)
 - [3D Gaussian splatting for real-time radiance field rendering](https://dl.acm.org/doi/pdf/10.1145/3592433)
 - [Nvidia 3DGS sample](https://github.com/nvpro-samples/vk_gaussian_splatting)
-- [An introduction to neural shading](https://dl.acm.org/doi/pdf/10.1145/3721241.3733999)
+- [An introduction to neural shading](https://dl.acm.org/doi/pdf/10.1145/3721241.3733999)- 
+- [Nvidia RTX kit](https://developer.nvidia.com/rtx-kit/?sortBy=developer_learning_library%2Fsort%2Ftitle%3Aasc&hitsPerPage=15)
 - [RenderFormer](https://microsoft.github.io/renderformer/)
 
 ## Resource
@@ -61,4 +63,3 @@ date: 2025-10-07
 - [Siggraph](https://dl.acm.org/conference/siggraph)
 - [GAMES](https://games-cn.org/)
 - [Shadertoy](https://www.shadertoy.com)
-- [Nvidia RTX kit](https://developer.nvidia.com/rtx-kit/?sortBy=developer_learning_library%2Fsort%2Ftitle%3Aasc&hitsPerPage=15)
