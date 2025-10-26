@@ -23,12 +23,29 @@ cascade:
     editable: false
     pager: true
     show_related: true
-    show_breadcrumb: true
+    show_breadcrumb: false
     header:
       navbar:
         enable: true
     highlight_name: true
   # Projects options
+  - _target:
+      path: /projects/**
+    backlinks: false
+    show_date: true
+    reading_time: true
+    share: false
+    profile: true
+    commentable: false
+    editable: false
+    pager: true
+    show_related: true
+    show_breadcrumb: false
+    header:
+      navbar:
+        enable: true
+    highlight_name: true
+  # Blogs options
   - _target:
       path: /blogs/**
     backlinks: false
@@ -40,24 +57,7 @@ cascade:
     editable: false
     pager: true
     show_related: true
-    show_breadcrumb: true
-    header:
-      navbar:
-        enable: true
-    highlight_name: true
-  # Blogs options
-  - _target:
-      path: /docs/**
-    backlinks: false
-    show_date: true
-    reading_time: true
-    share: false
-    profile: true
-    commentable: false
-    editable: false
-    pager: true
-    show_related: true
-    show_breadcrumb: true
+    show_breadcrumb: false
     header:
       navbar:
         enable: true
