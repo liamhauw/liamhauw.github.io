@@ -75,4 +75,4 @@ work:
 
 ---
 
-Liam Hauw is a graphics engineer at OPPO. His research interests include fluid simulation, real-time rendering and game engine.
+Liam Hauw is a graphics engineer at OPPO. His research interests span multiple cutting-edge areas in computer graphics, including fluid simulation, real-time rendering, and game engine. He constantly explores innovative techniques to push the boundaries of what's possible in real-time graphics on mobile platforms. Through his work, he aims to deliver visually stunning and performant experiences that leverage the latest advancements in GPU technology and rendering algorithms.
