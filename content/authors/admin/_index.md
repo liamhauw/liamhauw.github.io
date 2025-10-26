@@ -3,7 +3,7 @@
 title: Liam Hauw
 
 # Name pronunciation (optional)
-name_pronunciation: ""
+name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: Liam
@@ -18,6 +18,9 @@ status:
 
 # Is this the primary user of the site?
 superuser: true
+
+# Highlight the author in author lists? (true/false)
+highlight_name: true
 
 # Role/position/tagline
 role: Graphics engineer
@@ -43,11 +46,33 @@ profiles:
     url: 'mailto:liamhauw@gmail.com'
     label: E-mail Me
 
-# Highlight the author in author lists? (true/false)
-highlight_name: true
-
 # Author's website URL
 website: "liamhauw.github.op"
+
+interests:
+  - Fluid simulation
+  - Real-time rendering
+  - Game engine
+
+education:
+  - area: MS optical engineering
+    institution: Xidian University
+    date_start: '2020-09-01'
+    date_end: '2023-07-01'
+    summary : Research fluid simulation and real-time rendering.
+  - area: BS electronic science and technology
+    institution: Xidian University
+    date_start: '2016-09-01'
+    date_end: '2020-07-01'
+    summary : Minored inphysics.
+
+work:
+  - position: Graphics engineer
+    company_name: OPPO
+    date_start: '2023-07-15'
+    date_end: ''
+    summary : Optimizes the graphics quality and performance of mobile games
+
 ---
 
 Liam Hauw is a graphics engineer at OPPO. His research interests include fluid simulation, real-time rendering and game engine.

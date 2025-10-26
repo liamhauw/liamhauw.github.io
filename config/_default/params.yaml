@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  mode: light
-  color: blue
+  mode: system
+  color: indigo
 
 # SEO
 marketing:
@@ -15,7 +15,7 @@ marketing:
     local_business_type: ''
     org_name: ''
     description: 'A personal website powered by Liam Hauw.'
-    twitter: 'LiamHauw'
+    twitter: 'Liam Hauw'
   analytics:
     google_analytics: ''
     google_tag_manager: ''
