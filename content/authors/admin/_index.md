@@ -66,13 +66,6 @@ education:
     date_end: '2020-07-01'
     summary : Minored inphysics.
 
-work:
-  - position: Graphics engineer
-    company_name: OPPO
-    date_start: '2023-07-15'
-    date_end: ''
-    summary : Optimizes the graphics quality and performance of mobile games
-
 ---
 
 Liam Hauw is a graphics engineer at OPPO. His research interests span multiple cutting-edge areas in computer graphics, including fluid simulation, real-time rendering, and game engine. He constantly explores innovative techniques to push the boundaries of what's possible in real-time graphics on mobile platforms. Through his work, he aims to deliver visually stunning and performant experiences that leverage the latest advancements in GPU technology and rendering algorithms.

@@ -4,7 +4,7 @@ type: landing
 sections:
   - block: hero
     content:
-      title: Implementation
+      title: Showcase 🎉
       text: 'Open-source projects by Liam Hauw'
       primary_action:
         icon: brands/github
@@ -19,10 +19,6 @@ sections:
         padding: [0, 0, 0, 0]
         margin: [0, 0, 0, 0]
   - block: collection
-    content:
-      filters:
-        folders:
-          - showcase
     design:
       view: card
       spacing:
