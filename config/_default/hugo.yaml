@@ -26,7 +26,7 @@ cascade:
     show_breadcrumb: true
     header:
       navbar:
-        enable: false
+        enable: true
     highlight_name: true
   # Projects options
   - _target:
@@ -43,7 +43,7 @@ cascade:
     show_breadcrumb: true
     header:
       navbar:
-        enable: false
+        enable: true
     highlight_name: true
   # Blogs options
   - _target:
@@ -60,7 +60,7 @@ cascade:
     show_breadcrumb: true
     header:
       navbar:
-        enable: false
+        enable: true
     highlight_name: true
 
 
