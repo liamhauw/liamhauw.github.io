@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: "Hugo Docs" # Website name
+title: "Liam Hauw" # Website name
 baseURL: 'https://example.com/' # Website URL
 
 ############################
@@ -11,32 +11,58 @@ baseURL: 'https://example.com/' # Website URL
 ############################
 
 cascade:
-  # Docs folder options
+  # Docs options
   - _target:
       path: /docs/**
-    editable: true
-    show_breadcrumb: true
-    # Hide date from Next In Series
-    show_date: false
-    # Show date modified at end of content
-    show_date_updated: true
-  # Blog post options
-  - _target:
-      path: /blog/**
-      kind: page
-    pager: true
-    editable: true
-    hide_date: false
-    show_date_updated: true
+    backlinks: false
+    show_date: true
     reading_time: true
-    commentable: true
+    share: false
+    profile: true
+    commentable: false
+    editable: false
+    pager: true
     show_related: true
-    share: true
-    # Just use Breadcrumb for navigation on blog post pages?
-    show_breadcrumb: false
+    show_breadcrumb: true
     header:
       navbar:
-        enable: true
+        enable: false
+    highlight_name: true
+  # Projects options
+  - _target:
+      path: /blogs/**
+    backlinks: false
+    show_date: true
+    reading_time: true
+    share: false
+    profile: true
+    commentable: false
+    editable: false
+    pager: true
+    show_related: true
+    show_breadcrumb: true
+    header:
+      navbar:
+        enable: false
+    highlight_name: true
+  # Blogs options
+  - _target:
+      path: /docs/**
+    backlinks: false
+    show_date: true
+    reading_time: true
+    share: false
+    profile: true
+    commentable: false
+    editable: false
+    pager: true
+    show_related: true
+    show_breadcrumb: true
+    header:
+      navbar:
+        enable: false
+    highlight_name: true
+
 
 ############################
 ## LANGUAGE
