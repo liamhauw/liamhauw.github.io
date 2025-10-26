@@ -24,9 +24,6 @@ sections:
           text: "Learn more about me"
           url: "/about/"
     design:
-      spacing:
-        padding: [0, 0, 0, 0]
-        margin: [0, 0, 0, 0]
       css_class: ""
       background:
         color: ""
