@@ -20,6 +20,7 @@ date: 2025-10-07
 
 ## Shadows
 ### Reference
+- [Real-Time Shadows](https://www.amazon.com/Real-Time-Shadows-Elmar-Eisemann/dp/0367659263)
 
 ## Physically based shading
 ### Reference
