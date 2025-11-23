@@ -10,7 +10,7 @@ sections:
   - block: hero
     content:
       title: Graphics engineering
-      text: Exploring the world of fluid simulation, real-time rendering, and game engine 🚀
+      text: Exploring the world of physical simulation, real-time rendering, game engine, and deep learning 🚀
       primary_action:
         text: Browse docs
         url: /docs/
@@ -51,17 +51,20 @@ sections:
     id: features
     content:
       title: Interests
-      text: Include fluid simulation, real-time rendering and game engine.
+      text: Include physical simulation, real-time rendering, game engine, and deep learning.
       items:
-        - name: Fluid simulation
+        - name: Physical simulation
           icon: beaker
-          description: Studying computational fluid dynamics (CFD) for realistic simulation of smoke, water, and fire. Exploring Eulerian and Lagrangian methods, Navier-Stokes solvers, and advanced techniques like FLIP, PIC, and SPH for visually compelling fluid behaviors.
+          description: Mastering computational fluid dynamics (CFD) and rigid body dynamics to create lifelike simulations of smoke, water, fire, and solid objects. Leveraging Eulerian and Lagrangian approaches, Navier-Stokes solvers, and cutting-edge techniques including FLIP, PIC, SPH for fluid behaviors, alongside sophisticated collision detection and response systems for rigid body interactions.
         - name: Real-time rendering
           icon: bolt
-          description: Researching real-time rendering techniques including physically-based rendering (PBR), global illumination, ray tracing, and modern GPU-accelerated algorithms. Focus on achieving photorealistic visuals while maintaining interactive frame rates.
+          description: Advancing real-time rendering through physically-based rendering (PBR), global illumination, ray tracing, and GPU-accelerated algorithms. Dedicated to achieving photorealistic visuals at interactive frame rates by optimizing rendering pipelines and embracing next-generation graphics technologies for immersive visual experiences.
         - name: Game engine
           icon: cube
-          description: Exploring modern game engine design patterns including Entity-Component-System (ECS), multithreaded rendering pipelines, asset management, and data-driven workflows. Building scalable and performant systems for interactive 3D applications.
+          description: Architecting robust game engine systems with modern design patterns such as Entity-Component-System (ECS), multithreaded rendering pipelines, efficient asset management, and data-driven workflows. Focused on building scalable, high-performance frameworks that power interactive 3D applications and deliver seamless real-time experiences.
+        - name: Deep learning
+          icon: cpu-chip
+          description: Applying deep learning and neural network architectures to revolutionize computer graphics and vision tasks. Exploring innovative applications in image synthesis, style transfer, neural rendering, and AI-driven content creation to enhance visual fidelity, accelerate workflows, and unlock new creative possibilities through intelligent automation.
   - block: cta-card
     content:
       title: "Start exploring the fascinating world of graphics engineering"

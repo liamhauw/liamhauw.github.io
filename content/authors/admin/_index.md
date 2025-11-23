@@ -31,7 +31,7 @@ organizations:
     url: https://www.oppo.com/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: His research interests include fluid simulation, real-time rendering, game engine.
+bio: His research interests include physical simulation, real-time rendering, game engine, and deep learning.
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -50,16 +50,17 @@ profiles:
 website: "liamhauw.github.op"
 
 interests:
-  - Fluid simulation
+  - Physical simulation
   - Real-time rendering
   - Game engine
+  - Deep learning
 
 education:
   - area: MS optical engineering
     institution: Xidian University
     date_start: '2020-09-01'
     date_end: '2023-07-01'
-    summary : Research fluid simulation and real-time rendering.
+    summary : Research physical simulation, real-time rendering, and deep learning.
   - area: BS electronic science and technology
     institution: Xidian University
     date_start: '2016-09-01'
@@ -68,4 +69,4 @@ education:
 
 ---
 
-Liam Hauw is a graphics engineer at OPPO. His research interests span multiple cutting-edge areas in computer graphics, including fluid simulation, real-time rendering, and game engine. He constantly explores innovative techniques to push the boundaries of what's possible in real-time graphics on mobile platforms. Through his work, he aims to deliver visually stunning and performant experiences that leverage the latest advancements in GPU technology and rendering algorithms.
+Liam Hauw is a graphics engineer at OPPO, specializing in physical simulation, real-time rendering, game engine architecture, and deep learning. Passionate about pushing the boundaries of mobile graphics, he explores cutting-edge techniques to achieve photorealistic visuals while maintaining optimal performance. His work focuses on bridging the gap between theoretical advances in computer graphics and practical implementations on mobile platforms, leveraging state-of-the-art GPU technologies and rendering pipelines to create immersive, high-fidelity visual experiences.
