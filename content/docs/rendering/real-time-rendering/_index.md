@@ -1,7 +1,7 @@
 ---
 title: Real-time rendering
 weight: 1
-date: 2025-10-07
+date: 2025-12-09
 ---
 
 ## Shading basics
@@ -34,6 +34,7 @@ date: 2025-10-07
 ## Global illumination
 ### Reference
 - [Nvidia ray/path tracing samples](https://github.com/nvpro-samples/build_all?tab=readme-ov-file#vulkan-ray-tracing-and-path-tracing-samples)
+- [AMD FidelityFX Stochastic Screen Space Reflections (SSSR)](https://gpuopen.com/fidelityfx-sssr/)
 
 ## Efficient shading
 ### Reference
@@ -49,7 +50,7 @@ date: 2025-10-07
 - [Nerf: Representing scenes as neural radiance fields for view synthesis](https://dl.acm.org/doi/pdf/10.1145/3503250)
 - [3D Gaussian splatting for real-time radiance field rendering](https://dl.acm.org/doi/pdf/10.1145/3592433)
 - [Nvidia 3DGS sample](https://github.com/nvpro-samples/vk_gaussian_splatting)
-- [An introduction to neural shading](https://dl.acm.org/doi/pdf/10.1145/3721241.3733999)- 
+- [An introduction to neural shading](https://dl.acm.org/doi/pdf/10.1145/3721241.3733999)
 - [Nvidia RTX kit](https://developer.nvidia.com/rtx-kit/?sortBy=developer_learning_library%2Fsort%2Ftitle%3Aasc&hitsPerPage=15)
 - [RenderFormer](https://microsoft.github.io/renderformer/)
 
