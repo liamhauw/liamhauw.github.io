@@ -26,3 +26,20 @@ links:
     url: https://x.com/liamhauw
   - icon: brands/instagram
     url: https://www.instagram.com/liamhauw/
+interests:
+  - Physical simulation
+  - Real-time rendering
+  - Game engine
+  - Deep learning
+
+education:
+  - area: MS optical engineering
+    institution: Xidian University
+    date_start: '2020-09-01'
+    date_end: '2023-07-01'
+    summary : Research physical simulation, real-time rendering, and deep learning.
+  - area: BS electronic science and technology
+    institution: Xidian University
+    date_start: '2016-09-01'
+    date_end: '2020-07-01'
+    summary : Minored inphysics.
