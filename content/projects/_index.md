@@ -5,7 +5,7 @@ sections:
   - block: hero
     content:
       title: Showcase 🎉
-      text: 'Open-source projects by Liam Hauw'
+      text: 'By Liam Hauw'
       primary_action:
         icon: brands/github
         text: Github

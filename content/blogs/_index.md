@@ -5,7 +5,7 @@ sections:
   - block: hero
     content:
       title: Thoughts & stories 🏖
-      text: 'Share daily life by Liam Hauw'
+      text: 'By Liam Hauw'
       primary_action:
         icon: brands/x
         text: X
