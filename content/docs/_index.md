@@ -1,16 +1,28 @@
 ---
-linkTitle: Documentation
-title: Introduction
+linkTitle: Docs
+title: Computer science 💻
 ---
 
-👋 Welcome to the demo of the Hugo Blox Documentation template!
+## Classification
+{{% callout note %}}
+This is based on the [ACM computing classification system](https://dl.acm.org/ccs), which is the de facto standard classification system for the computing field.
+{{% /callout %}}
 
-<!--more-->
+- Software and its engineering
+  - Software notations and tools
+    - General programming languages
+- Theroy of computation
+  - Design and analysis of algorithms
+    - Algorithm design techniques
+- Computing methodologies
+  - Artificial intelligence
+    - Computer vision
+  - Machine learning
+    - Machine learning approaches
+  - Computer graphics
+    - Animation
+    - Rendering
+    - Graphics systems and interfaces
 
-This site is a demo of the Hugo Blox Documentation theme. For the full documentation on how to use this template, refer to the [Hugo Blox Documentation](https://docs.hugoblox.com/).
-
-## Next
-
-{{< cards >}}
-  {{< card url="getting-started" title="Get Started" icon="document-text" subtitle="Create your docs in just 5 minutes!" >}}
-{{< /cards >}}
+## Resource
+- [Self-learning guide](https://csdiy.wiki/en/)

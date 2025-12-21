@@ -1,6 +1,6 @@
 ---
 title: 'Home'
-date: 2023-10-24
+date: 2025-12-21
 type: landing
 
 design:
@@ -10,20 +10,20 @@ design:
 sections:
   - block: hero
     content:
-      title: Write Docs Fast, Focus on Your Content
-      text: The easy, no-code technical documentation solution your users will love 🎉
+      title: Graphics engineering
+      text: Exploring the world of physical simulation, real-time rendering, game engine, and deep learning 🚀
       primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/details/docs/
+        text: Browse docs
+        url: /docs/
         icon: rocket-launch
       secondary_action:
-        text: Read the docs
-        url: /docs/
+        text: View projects
+        url: /projects/
       announcement:
-        text: "Announcing the release of version 2."
+        text: "Welcome to my personal website"
         link:
-          text: "Read more"
-          url: "/blog/"
+          text: "Learn more about me"
+          url: "/about/"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -40,18 +40,9 @@ sections:
   - block: stats
     content:
       items:
-        - statistic: "1M+"
-          description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
-          description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
-          description: |
-            Discord community  
-            for support
+        - statistic: "Docs"
+        - statistic: "Projects"
+        - statistic: "Blogs"
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-800"
@@ -61,34 +52,28 @@ sections:
   - block: features
     id: features
     content:
-      title: Features
-      text: Collaborate, publish, and maintain technical knowledge with an all-in-one documentation site. Used by 100,000+ startups, enterprises, and researchers.
+      title: Interests
+      text: Include physical simulation, real-time rendering, game engine, and deep learning.
       items:
-        - name: Optimized SEO
-          icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
+        - name: Physical simulation
+          icon: beaker
+          description: Mastering computational fluid dynamics (CFD) and rigid body dynamics to create lifelike simulations of smoke, water, fire, and solid objects. Leveraging Eulerian and Lagrangian approaches, Navier-Stokes solvers, and cutting-edge techniques including FLIP, PIC, SPH for fluid behaviors, alongside sophisticated collision detection and response systems for rigid body interactions.
+        - name: Real-time rendering
           icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
-          icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
-          icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
-          icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
-          icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
+          description: Advancing real-time rendering through physically-based rendering (PBR), global illumination, ray tracing, and GPU-accelerated algorithms. Dedicated to achieving photorealistic visuals at interactive frame rates by optimizing rendering pipelines and embracing next-generation graphics technologies for immersive visual experiences.
+        - name: Game engine
+          icon: cube
+          description: Architecting robust game engine systems with modern design patterns such as Entity-Component-System (ECS), multithreaded rendering pipelines, efficient asset management, and data-driven workflows. Focused on building scalable, high-performance frameworks that power interactive 3D applications and deliver seamless real-time experiences.
+        - name: Deep learning
+          icon: cpu-chip
+          description: Applying deep learning and neural network architectures to revolutionize computer graphics and vision tasks. Exploring innovative applications in image synthesis, style transfer, neural rendering, and AI-driven content creation to enhance visual fidelity, accelerate workflows, and unlock new creative possibilities through intelligent automation.
   - block: cta-card
     content:
-      title: "Start Writing with the #1 Effortless Documentation Platform"
-      text: Hugo Blox Docs Theme brings all your technical knowledge together in a single, centralized knowledge base. Easily search and edit it with the tools you use every day!
+      title: "Less is more"
+      text: ""
       button:
-        text: Get Started
-        url: https://hugoblox.com/templates/details/docs/
+        text: Reading my blogs
+        url: /blogs/
     design:
       card:
         # Card background color (CSS class)
