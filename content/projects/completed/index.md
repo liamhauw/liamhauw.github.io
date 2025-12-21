@@ -3,7 +3,7 @@ title: completed
 summary: All completed projects are open-sourced on GitHub.
 date: 2025-01-01
 authors:
-  - admin
+  - me
 tags:
   - Real-time rendering
   - Physical simulation
