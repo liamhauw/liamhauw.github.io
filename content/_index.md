@@ -39,16 +39,13 @@ sections:
       items:
         - statistic: "Docs"
           description: |
-            Technical notes and reference  
-            concepts, workflows, and patterns
+            Technical notes and reference
         - statistic: "Projects"
           description: |
-            Engineering work and prototypes  
-            implementations and case studies
+            Engineering work and prototypes
         - statistic: "Blogs"
           description: |
-            Writing and reflections  
-            learnings and perspectives
+            Reflections and perspectives
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-800"
@@ -56,7 +53,7 @@ sections:
     id: features
     content:
       title: Focus Areas
-      text: Core domains across real-time systems and visual computing.
+      text: Core domains across graphics engineering.
       items:
         - name: Physical simulation
           icon: beaker
@@ -65,10 +62,10 @@ sections:
           icon: bolt
           description: Real-time pipelines focused on image quality, frame stability, and efficient GPU execution.
         - name: GPU
-          icon: microchip
+          icon: server
           description: GPU architecture, shader/compute execution models, and performance analysis for real-time workloads.
         - name: Vulkan
-          icon: layers
+          icon: queue-list
           description: Explicit graphics API engineering such as resource management, synchronization, and frame graph style render orchestration.
         - name: Game engine
           icon: cube
