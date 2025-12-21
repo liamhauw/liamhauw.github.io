@@ -69,7 +69,7 @@ sections:
           description: GPU architecture, shader/compute execution models, and performance analysis for real-time workloads.
         - name: Vulkan
           icon: layers
-          description: Explicit graphics API engineering: resource management, synchronization, and frame graph style render orchestration.
+          description: Explicit graphics API engineering such as resource management, synchronization, and frame graph style render orchestration.
         - name: Game engine
           icon: cube
           description: Runtime architecture and tooling for scalable, data-driven, and performance-critical interactive systems.
