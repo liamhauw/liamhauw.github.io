@@ -10,7 +10,7 @@ name:
 status:
   icon: "🍺"
 role: Graphics engineer
-bio: My research interests include physical simulation, real-time rendering, game engine, and deep learning.
+ bio: Liam Hauw is a mobile graphics engineer specializing in screen-space, performance-conscious rendering techniques. His work includes frame interpolation, super resolution, screen-space reflections (SSR), and screen-space ambient occlusion (SSAO), with a focus on maximizing image quality within tight GPU and power budgets. He also works with CNN-based image classification, bridging practical deep-learning pipelines with real-time graphics production needs.
 affiliations:
   - name: OPPO
     url: https://www.oppo.com/en/
