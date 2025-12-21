@@ -11,8 +11,8 @@ main:
   - name: Projects
     url: projects/
     weight: 30
-  - name: Blog
-    url: blog/
+  - name: Blogs
+    url: blogs/
     weight: 40
   - name: About
     url: about/
