@@ -1,4 +1,4 @@
 ---
 title: Computer vision
-weight: 3
+weight: 4
 ---
