@@ -5,12 +5,15 @@ name:
   display: Liam Hauw
   given: Liam
   family: Hauw
-  pronunciation: Liam Hauw
+  alternate: ''
+  pronunciation: ''
   pronouns: he/him
+postnominals:
+  - Engineer
 status:
   icon: "🍺"
 role: Graphics engineer
-bio: Liam Hauw is a mobile graphics engineer specializing in screen-space, performance-conscious rendering techniques. His work includes frame interpolation, super resolution, screen-space reflections (SSR), and screen-space ambient occlusion (SSAO), with a focus on maximizing image quality within tight GPU and power budgets. He also works with CNN-based image classification, bridging practical deep-learning pipelines with real-time graphics production needs.
+bio: Liam Hauw is a graphics engineer specializing in mobile graphics quality and performance optimization. His core expertise lies in frame interpolation, super-resolution, and screen-space reflections, with a strong focus on integrating deep learning technologies into computer graphics.
 affiliations:
   - name: OPPO
     url: https://www.oppo.com/en/
@@ -37,11 +40,17 @@ interests:
 education:
   - area: MS optical engineering
     institution: Xidian University
-    date_start: '2020-09-01'
-    date_end: '2023-07-01'
-    summary : Research physical simulation, real-time rendering, and deep learning.
+    start: 2020-09-01
+    end: 2023-07-01
+    summary : Fluid simulation and real-time rendering.
   - area: BS electronic science and technology
     institution: Xidian University
-    date_start: '2016-09-01'
-    date_end: '2020-07-01'
-    summary : Minored inphysics.
+    start: 2016-09-01
+    end: 2020-07-01
+    summary : Physics.
+
+experience:
+  - role: Graphics Engineer
+    org: OPPO
+    start: 2023-07-15
+    summary: Mobile graphics quality and performance optimization.

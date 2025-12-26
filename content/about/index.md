@@ -9,6 +9,7 @@ sections:
       text: ''
       headings:
         about: ''
+        experience: ''
         education: ''
         interests: ''
     design:
