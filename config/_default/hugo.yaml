@@ -4,8 +4,8 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
-baseURL: 'https://example.com/' # Website URL
+title: 'Liam Hauw'
+baseURL: 'https://liamhauw.github.io/' # Website URL
 
 ############################
 ## PAGE OPTIONS
@@ -21,6 +21,23 @@ cascade:
     show_date: false
     # Show date modified at end of content
     show_date_updated: true
+  # Projects options
+  - _target:
+      path: /projects/**
+      kind: page
+    pager: true
+    editable: true
+    hide_date: false
+    show_date_updated: true
+    reading_time: true
+    commentable: true
+    show_related: true
+    share: true
+    # Just use Breadcrumb for navigation on blog post pages?
+    show_breadcrumb: false
+    header:
+      navbar:
+        enable: true
   # Blog post options
   - _target:
       path: /blog/**

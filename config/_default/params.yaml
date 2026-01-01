@@ -13,18 +13,18 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Liam Hauw"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "Graphics engineer"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
+    description: "A personal website powered by Liam Hauw."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "MakeOwnable"              # Twitter/X handle for Twitter Cards (without @)
+      twitter: "liamhauw"              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -92,7 +92,7 @@ hugoblox:
     search: true
     theme_toggle: true
     theme_picker: false
-    language_switcher: true
+    language_switcher: false
     # Call-to-action button
     cta:
       enable: false
@@ -106,7 +106,7 @@ hugoblox:
   footer:
     # Footer style variant
     style: minimal                      # minimal | columns | centered
-    language_switcher: true
+    language_switcher: false
     # Custom footer text (HTML supported)
     text: ""
 
@@ -116,7 +116,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "© {year} {name}."
     license:
       type: cc                          # cc | custom
       allow_derivatives: false
@@ -208,7 +208,7 @@ hugoblox:
     fathom:
       site_id: ""
     pirsch:
-      site_id: ""
+      site_id: "sVH8ZixkFx5eeeLTUTEuChwFdELkrA7n"
     clarity:
       project_id: ""
     baidu:
@@ -219,7 +219,7 @@ hugoblox:
   # Search engine site verification codes
   # ────────────────────────────────────────────────────────────────────────────
   verification:
-    google: ""
+    google: "m_xZfpIqhYgFZi8s-b-XAO3E38oQG2H8NpoR_KPBxtM"
     bing: ""
     baidu: ""
     yandex: ""
@@ -231,8 +231,8 @@ hugoblox:
   # Source code repository for "Edit this page" links
   # ────────────────────────────────────────────────────────────────────────────
   repository:
-    enable: false
-    url: ""                             # e.g., https://github.com/username/repo
+    enable: true
+    url: "https://github.com/liamhauw/liamhauw.github.io"                             # e.g., https://github.com/username/repo
     branch: main
     content_dir: content
 
