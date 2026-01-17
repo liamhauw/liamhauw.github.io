@@ -1,8 +1,12 @@
 ---
 title: Game engine
-date: 2025-06-20
+date: 2026-01-17
 weight: 5
 ---
+
+## Unreal engine
+- [Offical docs](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-7-documentation)
+- [Italink unreal engine guide](https://italink.github.io/ModernGraphicsEngineGuide/)
 
 ## Nanite
 - [A deep dive](https://advances.realtimerendering.com/s2021/Karis_Nanite_SIGGRAPH_Advances_2021_final.pdf)
