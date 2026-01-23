@@ -1,7 +1,7 @@
 ---
 title: Real-time rendering
 weight: 1
-date: 2025-12-09
+date: 2026-01-23
 ---
 
 ## Shading basics
@@ -44,6 +44,10 @@ date: 2025-12-09
 - [A primer on efficient rendering algorithms and clustered shading](http://www.aortiz.me/2018/12/21/CG.html)
 - [Nvidia mega geometray samples](https://github.com/nvpro-samples/build_all?tab=readme-ov-file#mega-geometry)
 - [Niagara renderer](https://github.com/zeux/niagara)
+
+## Super resolution & frame interpolation
+### Reference
+- [AMD FidelityFX-SDK](https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK)
 
 ## Neural rendering
 ### Reference
