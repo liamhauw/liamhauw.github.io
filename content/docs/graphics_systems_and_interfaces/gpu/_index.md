@@ -1,7 +1,7 @@
 ---
 title: GPU
 weight: 1
-date: 2024-04-22
+date: 2026-01-27
 ---
 
 ## Architecture taxonomy
@@ -95,6 +95,7 @@ There is a cost to traversing the geometry repeatedly.
 ### Reference
 - [Qualcomm developer](https://developer.qualcomm.com/)
 - [Snapdragon game toolkit](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/snapdragon-game-toolkit/index.html)
+- [Qualcomm mobile game development guide](https://zhuanlan.zhihu.com/p/1911434325402026577)
 - [Arm developer](https://developer.arm.com/)
 - [Arm GPU best practices developer guide](https://developer.arm.com/documentation/101897/latest/)
 - [Tile-based rendering](https://developer.arm.com/documentation/102662/0100)
@@ -106,7 +107,23 @@ There is a cost to traversing the geometry repeatedly.
 - [IMR, TBR, TBDR and some understanding of GPU architecture](https://zhuanlan.zhihu.com/p/259760974)
 - [Summary of GPU architecture knowledge for mobile devices](https://zhuanlan.zhihu.com/p/259760974)
 
-## Graphics optimaize
+## Five Common Patterns That Disable Early-ZS and HSR
+1. Using discard (or clip) in Shaders
+- Impact: Forces Late-ZS Update and typically disables HSR.
+- Reason: The GPU cannot determine if a fragment will be written to the depth buffer until the shader finishes execution (since the shader might discard the fragment). To ensure correctness, the GPU must execute the shader first before updating the depth buffer, preventing early optimization.
+2. Writing to gl_FragDepth (Modifying Depth)
+- Impact: Forces Late-ZS Test & Update and disables HSR.
+- Reason: Early-Z relies on the interpolated depth value before the shader runs. If the shader manually modifies the depth value, the early check becomes invalid. The GPU must wait for the shader to calculate the final depth before performing any depth testing.
+3. Reading from Depth/Stencil Buffer
+- Impact: Forces Late-ZS Update and disables HSR.
+- Reason: Reading the depth buffer creates a dependency on previous fragments covering the same pixel. To ensure the read value is correct, the GPU must serialize execution and wait for previous fragments to finish writing to the depth buffer, breaking the parallel pipeline required for early optimizations.
+4. Reading from Framebuffer or Pixel Local Storage (PLS)
+- Impact: Disables HSR.
+- Reason: HSR works by determining the single visible surface before shading. However, if a shader reads the existing color of a pixel (e.g., for programmable blending), it implies a dependency on "what was there before." HSR cannot safely discard covered fragments because their color might be needed by the top-most fragment's shader logic.
+5. Writing to SSBOs or UAVs (Side Effects)
+- Impact: Defaults to Late-ZS Test & Update (disabling Early-ZS) and disables HSR.
+- Reason: By standard, depth testing happens after shading. If a shader writes to a global buffer (SSBO/UAV), that write is a side effect that "should" happen even if the fragment later fails the depth test. Early-Z would prevent the shader from running entirely, missing this side effect.
+Solution: You can force Early-Z back on using layout(early_fragment_tests) in; (GLSL) or [earlydepthstencil] (HLSL) if you don't care about the side effects of occluded fragments.
 
 ### Reference
-- [Qualcomm mobile game development guide](https://zhuanlan.zhihu.com/p/1911434325402026577)
+- [Five Common Patterns That Disable Early-ZS and HSR](https://nothingtosay0031.github.io/GPU/EarlyZS)
