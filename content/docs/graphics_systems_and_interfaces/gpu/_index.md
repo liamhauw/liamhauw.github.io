@@ -1,14 +1,14 @@
 ---
 title: GPU
 weight: 1
-date: 2026-01-28
+date: 2026-01-27
 ---
 
 ## Desktop GPU architecture
 ### Reference
 - [Nvidia developer](https://developer.nvidia.com/)
+- [Nvidia Geforce graphics architectures introduction](https://zhuanlan.zhihu.com/p/403345668)
 - [AMD developer](https://www.amd.com/en/developer.html)
-- [Geforce graphics architectures introduction](https://zhuanlan.zhihu.com/p/403345668)
 
 ## Mobile GPU architecture
 ### Reference
