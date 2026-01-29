@@ -26,3 +26,4 @@ This is based on the [ACM computing classification system](https://dl.acm.org/cc
 
 ## Resource
 - [Self-learning guide](https://csdiy.wiki/en/)
+- [NothingToSay0031 articlies](https://nothingtosay0031.github.io/archive)
