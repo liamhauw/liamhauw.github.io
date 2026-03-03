@@ -18,17 +18,17 @@ affiliations:
   - name: OPPO
     url: https://www.oppo.com/en/
 links:
+  - icon: brands/github
+    url: https://github.com/liamhauw
+  - icon: brands/x
+    url: https://x.com/liamhauw
+  - icon: brands/discord
+    url: https://discord.gg/8wCasdfJ
+  - icon: brands/instagram
+    url: https://www.instagram.com/liamhauw/
   - icon: at-symbol
     url: mailto:liamhauw@gmail.com
     label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/liamhauw
-  - icon: brands/discord
-    url: https://discord.gg/8wCasdfJ
-  - icon: brands/x
-    url: https://x.com/liamhauw
-  - icon: brands/instagram
-    url: https://www.instagram.com/liamhauw/
 interests:
   - Physical simulation
   - Real-time rendering
