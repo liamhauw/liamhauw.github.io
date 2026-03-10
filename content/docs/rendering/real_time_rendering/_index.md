@@ -1,7 +1,7 @@
 ---
 title: Real-time rendering
 weight: 1
-date: 2026-01-23
+date: 2026-03-10
 ---
 
 ## Shading basics
@@ -45,8 +45,9 @@ date: 2026-01-23
 - [Nvidia mega geometray samples](https://github.com/nvpro-samples/build_all?tab=readme-ov-file#mega-geometry)
 - [Niagara renderer](https://github.com/zeux/niagara)
 
-## Super resolution & frame interpolation
+## Frame interpolation, super-resolution
 ### Reference
+- [Nvidia DLSS](https://developer.nvidia.com/rtx/dlss)
 - [AMD FidelityFX-SDK](https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK)
 
 ## Neural rendering
