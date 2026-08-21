@@ -45,11 +45,6 @@ date: 2026-03-10
 - [Nvidia mega geometray samples](https://github.com/nvpro-samples/build_all?tab=readme-ov-file#mega-geometry)
 - [Niagara renderer](https://github.com/zeux/niagara)
 
-## Frame interpolation, super resolution
-### Reference
-- [Nvidia DLSS](https://developer.nvidia.com/rtx/dlss)
-- [AMD FidelityFX-SDK](https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK)
-
 ## Neural rendering
 ### Reference
 - [Nerf: Representing scenes as neural radiance fields for view synthesis](https://dl.acm.org/doi/pdf/10.1145/3503250)
