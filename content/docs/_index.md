@@ -16,6 +16,7 @@ This is based on the [ACM computing classification system](https://dl.acm.org/cc
     - Algorithm design techniques
 - Computing methodologies
   - Artificial intelligence
+    - Natural language processing
     - Computer vision
   - Machine learning
     - Machine learning approaches
