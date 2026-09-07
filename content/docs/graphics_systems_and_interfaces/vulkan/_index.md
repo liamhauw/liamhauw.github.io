@@ -5,11 +5,9 @@ date: 2026-09-06
 ---
 
 ## Layer
-
-### Windows layer
-Registry Editor stores the vulkan explicit and implicit layers in the Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan
-
-### Android layer
+- Windows layer
+  - Registry Editor stores the vulkan explicit and implicit layers in the Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan
+- Android layer
 ```shell
 adb shell settings put global enable_gpu_debug_layers 1
 adb shell settings put global gpu_debug_layers [layer name ep.VK_LAYER_KHRONOS_validation]
@@ -34,26 +32,23 @@ Given position, normal and tangent vector and model matirx.
 - To transform the normal and tangent vector from model space to world space, we need mutiply the postion by the **inverse transpose** of the model matrix.
 
 ## Mutiple threads
-### Queue, command pool and command buffer
-### Queue
-- `vkQueueSubmit` / `vkQueueSubmit2`, `vkQueuePresentKHR`, `vkQueueWaitIdle`, and `vkQueueBindSparse` on the **same** `VkQueue` must be externally synchronized — one mutex, or a single submit thread.
-- **Different queues** may be submitted from different threads with no extra lock.
-- Submit order across queues does **not** order GPU work; use semaphores.
-- `vkQueueSubmit` is expensive — batch many CBs into few submits. Parallelism belongs in recording, not in pounding the same queue.
-
-### Command Pool
-- Not thread-safe: allocate, reset, free, and recording from CBs in that pool must not overlap across threads.
-- One pool per worker (often `pool[thread][frame-in-flight]`).
-- Reset only after all CBs from that pool have finished on the GPU (fence / timeline semaphore).
-- Pool-wide `vkResetCommandPool` is faster; per-CB reset needs `VK_COMMAND_POOL_CREATE_RESET_COMMAND_BUFFER_BIT`.
-
-### Command Buffer
-- One CB may be begun, recorded, ended, or reset by only one thread at a time.
-- CBs from **different pools** may be recorded in parallel.
-- After `vkEndCommandBuffer`, another thread may submit it.
-- Do not begin / reset / free a CB while it is pending.
-- Typical MT pattern: workers record **secondaries**; the submit thread records a **primary**, `vkCmdExecuteCommands`, then `vkQueueSubmit`.
-- Prefer one-time CBs per thread per frame over `SIMULTANEOUS_USE`.
+- Queue
+  - `vkQueueSubmit` / `vkQueueSubmit2`, `vkQueuePresentKHR`, `vkQueueWaitIdle`, and `vkQueueBindSparse` on the **same** `VkQueue` must be externally synchronized — one mutex, or a single submit thread.
+  - **Different queues** may be submitted from different threads with no extra lock.
+  - Submit order across queues does **not** order GPU work; use semaphores.
+  - `vkQueueSubmit` is expensive — batch many CBs into few submits. Parallelism belongs in recording, not in pounding the same queue.
+- Command Pool
+  - Not thread-safe: allocate, reset, free, and recording from CBs in that pool must not overlap across threads.
+  - One pool per worker (often `pool[thread][frame-in-flight]`).
+  - Reset only after all CBs from that pool have finished on the GPU (fence / timeline semaphore).
+  - Pool-wide `vkResetCommandPool` is faster; per-CB reset needs `VK_COMMAND_POOL_CREATE_RESET_COMMAND_BUFFER_BIT`.
+- Command Buffer
+  - One CB may be begun, recorded, ended, or reset by only one thread at a time.
+  - CBs from **different pools** may be recorded in parallel.
+  - After `vkEndCommandBuffer`, another thread may submit it.
+  - Do not begin / reset / free a CB while it is pending.
+  - Typical MT pattern: workers record **secondaries**; the submit thread records a **primary**, `vkCmdExecuteCommands`, then `vkQueueSubmit`.
+  - Prefer one-time CBs per thread per frame over `SIMULTANEOUS_USE`.
 
 ### Reference
 - [Vulkan multi-threading](https://developer.nvidia.com/sites/default/files/akamai/gameworks/blog/munich/mschott_vulkan_multi_threading.pdf)

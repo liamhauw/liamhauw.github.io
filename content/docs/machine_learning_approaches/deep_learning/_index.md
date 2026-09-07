@@ -16,11 +16,8 @@ Depth helps because later layers reuse and recombine earlier ones, and the same 
 
 The training signal comes in four setups: **supervised** (human labels), **self-supervised** (targets built from the input—next token, masked patch, paired view), **unsupervised** (structure or a data distribution, no task label), and **reinforcement** (a reward or preference). At scale the usual workflow is to pretrain a large model, often self-supervised, then adapt it by fine-tuning, prompting, or alignment.
 
-The network *is* the model. Families below differ by **connectivity**: how units link and share weights. That inductive bias is what matches images, sequences, or graphs.
-
 ## Neural network
-
-A neural network is a parameterized function. Each unit takes a weighted sum of its inputs and applies a nonlinearity; stacked and trained, the whole mapping approximates a target function from data. The same stack can later be trained with different losses; what changes first is the wiring.
+A neural network is a parameterized function. Each unit takes a weighted sum of its inputs and applies a nonlinearity; stacked and trained, the whole mapping approximates a target function from data. The same stack can later be trained with different losses; what changes first is the wiring. The network *is* the model. Families below differ by **connectivity**: how units link and share weights. That inductive bias is what matches images, sequences, or graphs.
 
 - Multilayer perceptron (MLP)
   - Fully connected layers; each unit sees every activation from the previous layer
