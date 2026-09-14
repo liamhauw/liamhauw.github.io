@@ -13,7 +13,7 @@ postnominals:
 status:
   icon: "🍺"
 role: Graphics engineer
-bio: Liam Hauw is a graphics engineer specializing in mobile graphics quality and performance optimization. His core expertise lies in frame generation, super resolution, and other screen-space effects, with a strong focus on integrating deep learning technologies into computer graphics.
+bio: Liam Hauw is a graphics engineer at OPPO. He is broadly interested in computer graphics and machine learning.
 affiliations:
   - name: OPPO
     url: https://www.oppo.com/en/
@@ -30,11 +30,9 @@ links:
     url: mailto:liamhauw@gmail.com
     label: E-mail Me
 interests:
-  - Physical simulation
   - Real-time rendering
-  - GPU
-  - Vulkan
   - Game engine
+  - Frame generation
   - Deep learning
 
 education:
@@ -48,9 +46,3 @@ education:
     start: 2016-09-01
     end: 2020-07-01
     summary : Physics.
-
-experience:
-  - role: Graphics Engineer
-    org: OPPO
-    start: 2023-07-15
-    summary: Mobile graphics quality and performance optimization.
