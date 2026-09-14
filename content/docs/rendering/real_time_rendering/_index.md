@@ -45,15 +45,6 @@ date: 2026-03-10
 - [Nvidia mega geometray samples](https://github.com/nvpro-samples/build_all?tab=readme-ov-file#mega-geometry)
 - [Niagara renderer](https://github.com/zeux/niagara)
 
-## Neural rendering
-### Reference
-- [Nerf: Representing scenes as neural radiance fields for view synthesis](https://dl.acm.org/doi/pdf/10.1145/3503250)
-- [3D Gaussian splatting for real-time radiance field rendering](https://dl.acm.org/doi/pdf/10.1145/3592433)
-- [Nvidia 3DGS sample](https://github.com/nvpro-samples/vk_gaussian_splatting)
-- [An introduction to neural shading](https://dl.acm.org/doi/pdf/10.1145/3721241.3733999)
-- [Nvidia RTX kit](https://developer.nvidia.com/rtx-kit/?sortBy=developer_learning_library%2Fsort%2Ftitle%3Aasc&hitsPerPage=15)
-- [RenderFormer](https://microsoft.github.io/renderformer/)
-
 ## Resource
 - [Mathematics for 3D game programming and computer graphics(3rd)](https://www.amazon.com/Mathematics-Programming-Computer-Graphics-Third/dp/1435458869)
 - [Foundations of game engine development volume 1 mathematics](https://www.amazon.com/Foundations-Game-Engine-Development-Mathematics/dp/0985811749)
