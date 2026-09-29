@@ -1,7 +1,7 @@
 ---
 title: Basis
 weight: 1
-date: 2026-09-27
+date: 2026-09-29
 ---
 
 ## Resource

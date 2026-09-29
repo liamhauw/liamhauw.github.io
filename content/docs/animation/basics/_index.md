@@ -1,7 +1,7 @@
 ---
-title: Physical simulation
+title: Basis
 weight: 1
-date: 2024-04-22
+date: 2026-09-29
 ---
 
 ## Resource
@@ -13,3 +13,4 @@ date: 2024-04-22
 - [SPH tutorial](https://interactivecomputergraphics.github.io/SPH-Tutorial/)
 - [Taichi course](https://github.com/taichiCourse01/taichiCourse01)
 - [GAMES201 advanced physics engine 2020](https://games-cn.org/games201/)
+- [GAMES105 fundamentals of character animation](https://games-cn.org/games105/)
