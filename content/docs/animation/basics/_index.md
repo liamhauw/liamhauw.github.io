@@ -1,5 +1,5 @@
 ---
-title: Basis
+title: Bascis
 weight: 1
 date: 2026-09-29
 ---

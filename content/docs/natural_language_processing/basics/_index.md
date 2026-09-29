@@ -1,5 +1,5 @@
 ---
-title: Basis
+title: Basics
 weight: 1
 date: 2026-09-06
 ---
