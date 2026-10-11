@@ -6,6 +6,7 @@ date: 2026-01-29
 
 ## Resource
 - [Nvidia developer](https://developer.nvidia.com/)
+- [Nvidia research](https://www.nvidia.com/en-us/research/)
 - [Nvidia Geforce graphics architectures introduction](https://zhuanlan.zhihu.com/p/403345668)
 - [AMD developer](https://www.amd.com/en/developer.html)
 - [Qualcomm developer](https://www.qualcomm.com/developer)
