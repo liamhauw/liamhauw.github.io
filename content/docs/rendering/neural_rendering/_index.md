@@ -7,7 +7,7 @@ weight: 3
 ## DLSS
 ### Reference
 - [Nvidia DLSS](https://developer.nvidia.com/rtx/dlss)
-- [DLSS5: generative nerual rendering](https://research.nvidia.com/labs/adlr/DLSS5/)
+- [DLSS5: generative neural rendering](https://research.nvidia.com/labs/adlr/DLSS5/)
 - [DLSS4: transforming real-time graphics with AI](https://research.nvidia.com/labs/adlr/DLSS4/)
 
 ## Resource
