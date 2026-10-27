@@ -1,0 +1,34 @@
+theme: jekyll-theme-minimal
+title: Liam Hauw
+description: Docs, Projects, and Posts
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: README.md
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: default
+
+
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
